@@ -1,4 +1,7 @@
 fileignoreconfig:
-- filename: testng.xml
-  checksum: 84b1aa4602017bc69bc4264f771a7e5506e967e951284586946f32363a936b3e
+- filename: src/main/java/pages/LoginPage.java
+  checksum: 957d2b83d6989cfa4218c817f8a238c95c204f9d3b2eda6dc3db15a03974e68a
+- filename: src/test/java/skyfoxapp/testcases/loginpagetest/NegativeLoginTest.java
+  checksum: 614594ecb6e4bc0bac6e68daf10f63f866c53026a961b93b5a1e3c14e30b33d1
 version: ""
+

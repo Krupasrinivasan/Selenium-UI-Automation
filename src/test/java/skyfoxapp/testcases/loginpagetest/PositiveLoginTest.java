@@ -22,9 +22,9 @@ public class PositiveLoginTest extends BaseTest {
     @Parameters({"username", "password"})
     @Test(priority = 1)
     public void loginPageTest(String username, String password) throws InterruptedException {
-        loginpage.sendUsernamePassword(username, password);
+        loginpage.sendUsernamePassword(username,password);
         loginpage.clickLoginButton();
-        Thread.sleep(1000);
+        sleep();
 
         //validate url after clicking login button
 
