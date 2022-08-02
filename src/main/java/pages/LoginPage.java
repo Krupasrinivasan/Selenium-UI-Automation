@@ -17,11 +17,8 @@ public class LoginPage {
     @FindBy(className = "MuiButton-label")
     WebElement loginButton;
 
-<<<<<<< HEAD
-    @FindBy(xpath = "/html//div[@id='root']//form[@action='#']/p[.='Login failed']")
-=======
     @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/p")
->>>>>>> 3b7dbf8e41059eaca107b647d7ada0d1179ed411
+
     WebElement failureMessage;
 
     @FindBy(xpath="//*[@id=\"root\"]/div/div/div[2]/div/form/div[3]")
@@ -34,10 +31,6 @@ public class LoginPage {
 
     public void openLoginPageUrl(){
         System.out.println("Starting login test");
-<<<<<<< HEAD
-        String url="http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login";
-=======
->>>>>>> 3b7dbf8e41059eaca107b647d7ada0d1179ed411
         driver.get(url);
     }
 
