@@ -14,6 +14,9 @@ public class BaseTest {
         driver.manage().window().maximize();
     }
 
+    public void sleep() throws InterruptedException {
+        Thread.sleep(500);
+    }
     public void tearDown() {
         driver.quit();
     }

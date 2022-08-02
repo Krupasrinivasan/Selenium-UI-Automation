@@ -21,9 +21,10 @@ public class NegativeLoginTest extends BaseTest {
 
     @Parameters({"username", "password","expectedFailureMessage"})
     @Test(priority = 1)
-    public void loginPageTest(String username, String password,String expectedFailureMessage) {
+    public void loginPageTest(String username, String password,String expectedFailureMessage) throws InterruptedException {
         loginpage.sendUsernamePassword(username, password);
         loginpage.clickLoginButton();
+        sleep();
 
         //validate url after clicking login button
         String actualUrl = loginpage.validateLoginUrl();

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
     private WebDriver driver;
-    public String url = "http://localhost:3000/login";
+    public String url = "http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login";
     @FindBy(name = "username" )
     WebElement username;
 
@@ -17,7 +17,7 @@ public class LoginPage {
     @FindBy(className = "MuiButton-label")
     WebElement loginButton;
 
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/form/p")
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/p")
     WebElement failureMessage;
 
     public LoginPage(WebDriver driver) {
@@ -27,7 +27,6 @@ public class LoginPage {
 
     public void openLoginPageUrl(){
         System.out.println("Starting login test");
-        String url="http://localhost:3000/login";
         driver.get(url);
     }
 
