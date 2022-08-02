@@ -21,19 +21,25 @@ public class NegativeLoginTest extends BaseTest {
 
     @Parameters({"username", "password","expectedFailureMessage"})
     @Test(priority = 1)
-    public void loginPageTest(String username, String password,String expectedFailureMessage) {
+    public void loginPageTest(String username, String password,String expectedFailureMessage) throws InterruptedException {
         loginpage.sendUsernamePassword(username, password);
         loginpage.clickLoginButton();
+        Thread.sleep(1000);
 
         //validate url after clicking login button
         String actualUrl = loginpage.validateLoginUrl();
         Assert.assertEquals(actualUrl, loginpage.url, "Actual page url is not as expected");
+        System.out.println(loginpage.url);
 
         //validate failure message
         String actualFailureMessage = loginpage.getActualMessageAfterInvalidLoginCredentials();
+        System.out.println(actualFailureMessage);
+        Thread.sleep(3000);
+
         Assert.assertTrue(actualFailureMessage.contains(expectedFailureMessage),"Actual failure message does not match expected failure message." +
                 "\nActual failure message: " + actualFailureMessage +
                 "\nExpected failure message: "+expectedFailureMessage);
+        Thread.sleep(3000);
 
     }
 
