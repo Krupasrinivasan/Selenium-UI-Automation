@@ -1,7 +1,9 @@
 fileignoreconfig:
-- filename: src/main/java/pages/LoginPage.java
-  checksum: 957d2b83d6989cfa4218c817f8a238c95c204f9d3b2eda6dc3db15a03974e68a
-- filename: src/test/java/skyfoxapp/testcases/loginpagetest/NegativeLoginTest.java
-  checksum: 614594ecb6e4bc0bac6e68daf10f63f866c53026a961b93b5a1e3c14e30b33d1
+- filename: src/test/java/skyfoxapp/testcases/customersignuptest/ValidatingConfirmPasswordtTest.java
+  checksum: 113e2149bc4a84a494e2166bb723294974861a5690f7407f349d8229e8bcf9ff
+- filename: src/test/java/skyfoxapp/testcases/customersignuptest/ValidatingPasswordTest.java
+  checksum: 57febfedb358c7d13e54ea7afd23d5af6a4a09e6ed852f1fe188bde54216f7a8
+- filename: testng.xml
+  checksum: 05ce858ddb22fe293e0312d3a66df973de28a1a08aa5c3794b5d1935cf36a9c4
 version: ""
 
