@@ -5,5 +5,8 @@ fileignoreconfig:
   checksum: 57febfedb358c7d13e54ea7afd23d5af6a4a09e6ed852f1fe188bde54216f7a8
 - filename: testng.xml
   checksum: 05ce858ddb22fe293e0312d3a66df973de28a1a08aa5c3794b5d1935cf36a9c4
+- filename: src/test/java/skyfoxapp/testcases/customersignuptest/ValidatingAllFieldsNegativeTest.java
+  checksum: 1167dbf89e8a9472d672b3b8e746651181e501a6cf54ade274157335c569d935
+
 version: ""
 
