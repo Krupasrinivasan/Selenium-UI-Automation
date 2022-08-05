@@ -21,41 +21,41 @@ public class ValidatingAllFieldsNegativeTest extends BaseTest {
         loginpage.openLoginPageUrl();
 
         signuppage = new CustomerSignupPage(driver);
-        Thread.sleep(3000);
+        Thread.sleep(500);
     }
     @Parameters({"name","user_name","email_id","mobile_num","pass","confirm_pass","nameErrorMessage","usernameErrorMessage","emailErrorMessage","mobileNumberErrorMessage","passwordErrorMessage","confirmPasswordErrorMessage"})
     @Test
     public void customerSignupPageTest(String full_name,String user_name,String email_id,String mobile_num,String pass,String confirm_pass,String nameErrorMessage,String usernameErrorMessage,String emailErrorMessage,String mobileErrorMessage,String passwordErrorMessage,String confirmPasswordErrorMessage) throws InterruptedException {
         loginpage.clickSignupLink();
-        Thread.sleep(3000);
+        sleep();
 
         String actualUrl = signuppage.validateSignupPageUrl();
         Assert.assertEquals(actualUrl, signuppage.url, "Actual page url is not as expected");
         System.out.println(signuppage.url);
 
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
-        Thread.sleep(3000);
+        sleep();
         signuppage.selectSomewhereOnTheSignUpform();
 
         String actualFailureMessageForText = signuppage.getErrorMessageForName();
         System.out.println(actualFailureMessageForText);
-        Thread.sleep(3000);
+        sleep();
 
         Assert.assertTrue(actualFailureMessageForText.contains(nameErrorMessage),"Actual failure message does not match expected failure message." +
                 "\nActual failure message: " + actualFailureMessageForText +
                 "\nExpected failure message: "+nameErrorMessage);
 
-            String actualFailureMessageForUserName = signuppage.getErrorMessageForUserName();
-            System.out.println(actualFailureMessageForUserName);
-            Thread.sleep(3000);
+        String actualFailureMessageForUserName = signuppage.getErrorMessageForUserName();
+        System.out.println(actualFailureMessageForUserName);
+        sleep();
 
-            Assert.assertTrue(actualFailureMessageForUserName.contains(usernameErrorMessage), "Actual failure message does not match expected failure message." +
-                    "\nActual failure message: " + actualFailureMessageForUserName +
-                    "\nExpected failure message: " + usernameErrorMessage);
+        Assert.assertTrue(actualFailureMessageForUserName.contains(usernameErrorMessage), "Actual failure message does not match expected failure message." +
+                "\nActual failure message: " + actualFailureMessageForUserName +
+                "\nExpected failure message: " + usernameErrorMessage);
 
         String actualFailureMessageForEmail = signuppage.getErrorMessageForEmail();
         System.out.println(actualFailureMessageForEmail);
-        Thread.sleep(3000);
+        sleep();
 
         Assert.assertTrue(actualFailureMessageForEmail.contains(emailErrorMessage),"Actual failure message does not match expected failure message." +
                 "\nActual failure message: " + actualFailureMessageForEmail +
@@ -63,7 +63,7 @@ public class ValidatingAllFieldsNegativeTest extends BaseTest {
 
         String actualFailureMessageForMobileNumber = signuppage.getErrorMessageForMobileNumbeer();
         System.out.println(actualFailureMessageForMobileNumber);
-        Thread.sleep(3000);
+        sleep();
 
         Assert.assertTrue(actualFailureMessageForMobileNumber.contains(mobileErrorMessage),"Actual failure message does not match expected failure message." +
                 "\nActual failure message: " + actualFailureMessageForMobileNumber +
@@ -71,7 +71,7 @@ public class ValidatingAllFieldsNegativeTest extends BaseTest {
 
         String actualFailureMessageForPassword = signuppage.getErrorMessageForPassword();
         System.out.println(actualFailureMessageForPassword);
-        Thread.sleep(3000);
+        sleep();
 
         Assert.assertTrue(actualFailureMessageForPassword.contains(passwordErrorMessage),"Actual failure message does not match expected failure message." +
                 "\nActual failure message: " + actualFailureMessageForPassword +
@@ -84,7 +84,7 @@ public class ValidatingAllFieldsNegativeTest extends BaseTest {
                 "\nActual failure message: " + actualFailureMessageForConfirmPassword +
                 "\nExpected failure message: "+confirmPasswordErrorMessage);
 
-        Thread.sleep(10000);
+        sleep();
         Assert.assertFalse(signuppage.validateSignupButton());
     }
 

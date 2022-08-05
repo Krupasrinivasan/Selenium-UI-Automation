@@ -20,25 +20,25 @@ public class ValidatingAllFieldsPositiveTest extends BaseTest {
         loginpage.openLoginPageUrl();
 
         signuppage = new CustomerSignupPage(driver);
-        Thread.sleep(3000);
+        sleep();
     }
     @Parameters({"name","user_name","email_id","mobile_num","pass","confirm_pass"})
     @Test
     public void customerSignupPageTest(String full_name,String user_name,String email_id,String mobile_num,String pass,String confirm_pass) throws InterruptedException {
         loginpage.clickSignupLink();
-        Thread.sleep(3000);
+        sleep();
 
         String actualUrl = signuppage.validateSignupPageUrl();
         Assert.assertEquals(actualUrl, signuppage.url, "Actual page url is not as expected");
         System.out.println(signuppage.url);
 
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
-        Thread.sleep(3000);
+        sleep();
         signuppage.clickSignupButton();
 
         String actualSignupUrl=signuppage.validateSignupUrl();
         Assert.assertNotEquals(actualSignupUrl, loginpage.url, "Login failed");
-        Thread.sleep(3000);
+        sleep();
     }
     @AfterClass
     public void closeBrowser() throws InterruptedException {

@@ -19,22 +19,21 @@ public class ValidatingMobileNumberTest extends BaseTest {
         loginpage.openLoginPageUrl();
 
         signuppage = new CustomerSignupPage(driver);
-        Thread.sleep(3000);
+        sleep();
     }
     @Parameters({"name","user_name","email_id","mobile_num","pass","confirm_pass","errorMessage"})
     @Test
     public void mobileNumberValidityChecking (String full_name,String user_name,String email_id,String mobile_num,String pass,String confirm_pass,String errorMessage) throws InterruptedException {
         loginpage.clickSignupLink();
-        Thread.sleep(3000);
+        sleep();
 
         String actualUrl = signuppage.validateSignupPageUrl();
         Assert.assertEquals(actualUrl, signuppage.url, "Actual page url is not as expected");
         System.out.println(signuppage.url);
 
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
-        Thread.sleep(3000);
-
-        Thread.sleep(3000);
+        sleep();
+        sleep();
 
         String actualFailureMessageForMobileNum = signuppage.getErrorMessageForMobileNumbeer();
         System.out.println(actualFailureMessageForMobileNum);

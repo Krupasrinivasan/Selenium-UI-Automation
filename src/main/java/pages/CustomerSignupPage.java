@@ -73,7 +73,7 @@ public class CustomerSignupPage {
         return driver.getCurrentUrl();
     }
 
-    public void sendDetails(String full_name,String user_name,String email_id,String mobile_num,String pass,String confirm_pass) {
+    public void sendDetails(String full_name, String user_name, String email_id, String mobile_num, String pass, String confirm_pass) {
 
         name.sendKeys(full_name);
         username.sendKeys(user_name);
@@ -88,43 +88,45 @@ public class CustomerSignupPage {
         return signupButton.isEnabled();
     }
 
-    public String getErrorMessageForName(){
+    public String getErrorMessageForName() {
         return nameErrorMessage.getText();
     }
 
-    public String getErrorMessageForUserName(){
+    public String getErrorMessageForUserName() {
         return userNameErrorMessage.getText();
     }
-    public String getErrorMessageForEmail(){
+
+    public String getErrorMessageForEmail() {
         return emailErrorMessage.getText();
     }
-    public String getErrorMessageForMobileNumbeer(){
+
+    public String getErrorMessageForMobileNumbeer() {
         return mobileErrorMessage.getText();
     }
-    public String getErrorMessageForPassword(){
+
+    public String getErrorMessageForPassword() {
         return passwordErrorMessage.getText();
     }
-    public String getErrorMessageForConfirmPassword(){
+
+    public String getErrorMessageForConfirmPassword() {
         return confirmPasswordErrorMessage.getText();
     }
 
-    public String getErrorMessageForAlreadyExistingUserName(){
+    public String getErrorMessageForAlreadyExistingUserName() {
         return alreadyExistingUser.getText();
     }
 
-    public void selectSomewhereOnTheSignUpform(){
+    public void selectSomewhereOnTheSignUpform() {
         signupform.click();
     }
 
-    public void clickSignupButton(){
+    public void clickSignupButton() {
         signupButton.click();
     }
 
-    public String validateSignupUrl(){
+    public String validateSignupUrl() {
         return driver.getCurrentUrl();
     }
-
-
 
 
 }

@@ -25,18 +25,18 @@ public class ValidatingAlreadyExistingUsernameTest extends BaseTest {
     @Test
     public void usernameValidityChecking (String full_name,String user_name,String email_id,String mobile_num,String pass,String confirm_pass,String errorMessage) throws InterruptedException {
         loginpage.clickSignupLink();
-        Thread.sleep(3000);
+        sleep();
 
         String actualUrl = signuppage.validateSignupPageUrl();
         Assert.assertEquals(actualUrl, signuppage.url, "Actual page url is not as expected");
         System.out.println(signuppage.url);
 
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
-        Thread.sleep(3000);
+        sleep();
 
         signuppage.clickSignupButton();
 
-        Thread.sleep(3000);
+        sleep();
 
         String actualFailureMessageForUserName = signuppage.getErrorMessageForAlreadyExistingUserName();
         System.out.println(actualFailureMessageForUserName);
@@ -44,7 +44,7 @@ public class ValidatingAlreadyExistingUsernameTest extends BaseTest {
         Assert.assertTrue(actualFailureMessageForUserName.contains(errorMessage), "Actual failure message does not match expected failure message." +
                 "\nActual failure message: " + actualFailureMessageForUserName +
                 "\nExpected failure message: " + errorMessage);
-        Thread.sleep(30000);
+        sleep();
 
     }
     @AfterClass

@@ -1,41 +1,41 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="AllTests" verbose="1" >
-<!--    <test name="PositiveTests" >-->
-<!--        <parameter name="username" value="seed-user-1" />-->
-<!--        <parameter name="password" value="foobar" />-->
-<!--        <classes>-->
-<!--            <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="NegativeUsernameTest">-->
-<!--        <parameter name="username" value="seed"/>-->
-<!--        <parameter name="password" value="foobar"/>-->
-<!--        <parameter name="expectedFailureMessage" value="Login failed"/>-->
-<!--        <classes>-->
-<!--            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="NegativePasswordTest">-->
-<!--        <parameter name="username" value="seed-user-1"/>-->
-<!--        <parameter name="password" value="football"/>-->
-<!--        <parameter name="expectedFailureMessage" value="Login failed"/>-->
-<!--        <classes>-->
-<!--            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="PositiveTests" >
+        <parameter name="username" value="seed-user-1" />
+        <parameter name="password" value="foobar" />
+        <classes>
+            <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>
+        </classes>
+    </test>
+    <test name="NegativeUsernameTest">
+        <parameter name="username" value="seed"/>
+        <parameter name="password" value="foobar"/>
+        <parameter name="expectedFailureMessage" value="Login failed"/>
+        <classes>
+            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
+        </classes>
+    </test>
+    <test name="NegativePasswordTest">
+        <parameter name="username" value="seed-user-1"/>
+        <parameter name="password" value="football"/>
+        <parameter name="expectedFailureMessage" value="Login failed"/>
+        <classes>
+            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
+        </classes>
+    </test>
 
-<!--    <test name="CustomerSignUpTestWithPositiveTestcases">-->
-<!--    <parameter name="name" value="aswini"></parameter>-->
-<!--    <parameter name="user_name" value="aswini3"></parameter>-->
-<!--    <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
-<!--    <parameter name="mobile_num" value="9067834521"></parameter>-->
-<!--    <parameter name="pass" value="Aswini.1"></parameter>-->
-<!--    <parameter name="confirm_pass" value="Aswini.1"></parameter>-->
-<!--        <classes>-->
-<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="CustomerSignUpTestWithPositiveTestcases">
+    <parameter name="name" value="aswini"></parameter>
+    <parameter name="user_name" value="aswini3"></parameter>
+    <parameter name="email_id" value="aswini@gmail.com"></parameter>
+    <parameter name="mobile_num" value="9067834521"></parameter>
+    <parameter name="pass" value="Aswini.1"></parameter>
+    <parameter name="confirm_pass" value="Aswini.1"></parameter>
+        <classes>
+            <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest"></class>
+        </classes>
+    </test>
 
     <test name="CustomerSignUpTestWithAllFieldRequired">
         <parameter name="name" value=""></parameter>
@@ -189,5 +189,22 @@
             </classes>
         </test>
 
+    <test name="PositiveScheduleTests" >
+        <parameter name="username" value="seed-user-1" />
+        <parameter name="password" value="foobar" />
+        <parameter name="cost" value="200" />
+        <classes>
+            <class name="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest"/>
+        </classes>
+    </test>
 
+    <test name="NegativeScheduleTests" >
+        <parameter name="username" value="seed-user-1" />
+        <parameter name="password" value="foobar" />
+        <parameter name="cost" value="vmn" />
+        <parameter name="expectedFailureMessage" value="Invalid cost"/>
+        <classes>
+            <class name="skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest"/>
+        </classes>
+    </test>
 </suite>

@@ -17,10 +17,12 @@ public class LoginPage {
     @FindBy(className = "MuiButton-label")
     WebElement loginButton;
 
-    @FindBy(xpath = "/html//div[@id='root']//form[@action='#']/p[.='Login failed']")
+
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/p")
+
     WebElement failureMessage;
 
-    @FindBy(xpath="//*[@id=\"root\"]/div/div/div[2]/div/form/div[3]")
+    @FindBy(xpath="//*[@id=\"root\"]/div/div/div[2]/div/form/div[3]/a")
     WebElement signupPage;
 
     public LoginPage(WebDriver driver) {
@@ -51,6 +53,10 @@ public class LoginPage {
 
 
     public void clickSignupLink() {
-        clickSignupLink();
+        signupPage.click();
+    }
+
+    public String getActualMessageAfterInvalidLoginCredentials() {
+        return failureMessage.getText();
     }
 }
