@@ -13,7 +13,7 @@
     </test>
     <test name="NegativeUsernameTest">
         <parameter name="username" value="seed"/>
-        <parameter name="password" value="Skyfox@123"/>
+        <parameter name="password" value="foobar"/>
         <parameter name="expectedFailureMessage" value="Login failed"/>
         <classes>
             <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
