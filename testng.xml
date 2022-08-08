@@ -1,9 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="AllTests" verbose="1" >
+    <listeners>
+        <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners" />
+    </listeners>
     <test name="PositiveTests" >
         <parameter name="username" value="seed-user-1" />
-        <parameter name="password" value="Skyfox@123" />
+        <parameter name="password" value="Skyfox@2" />
         <classes>
             <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>
         </classes>
@@ -191,7 +194,7 @@
 
     <test name="PositiveScheduleTests" >
         <parameter name="username" value="seed-user-1" />
-        <parameter name="password" value="foobar" />
+        <parameter name="password" value="Skyfox@2" />
         <parameter name="cost" value="200" />
         <classes>
             <class name="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest"/>
@@ -200,7 +203,7 @@
 
     <test name="NegativeScheduleTests" >
         <parameter name="username" value="seed-user-1" />
-        <parameter name="password" value="foobar" />
+        <parameter name="password" value="Skyfox@2" />
         <parameter name="cost" value="vmn" />
         <parameter name="expectedFailureMessage" value="Invalid cost"/>
         <classes>
