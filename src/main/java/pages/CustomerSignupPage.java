@@ -40,6 +40,7 @@ public class CustomerSignupPage {
     WebElement signupButton;
 
     @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/div[1]/p")
+
     WebElement nameErrorMessage;
 
     @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/div[2]/p")

@@ -5,8 +5,8 @@
         <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners" />
     </listeners>
     <test name="PositiveTests" >
-        <parameter name="username" value="seed-user-1" />
-        <parameter name="password" value="Skyfox@2" />
+        <parameter name="username" value="seed-user-2" />
+        <parameter name="password" value="foobar" />
         <classes>
             <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>
         </classes>
@@ -193,8 +193,8 @@
         </test>
 
     <test name="PositiveScheduleTests" >
-        <parameter name="username" value="seed-user-1" />
-        <parameter name="password" value="Skyfox@2" />
+        <parameter name="username" value="seed-user-2" />
+        <parameter name="password" value="foobar" />
         <parameter name="cost" value="200" />
         <classes>
             <class name="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest"/>
@@ -202,8 +202,8 @@
     </test>
 
     <test name="NegativeScheduleTests" >
-        <parameter name="username" value="seed-user-1" />
-        <parameter name="password" value="Skyfox@2" />
+        <parameter name="username" value="seed-user-2" />
+        <parameter name="password" value="foobar" />
         <parameter name="cost" value="vmn" />
         <parameter name="expectedFailureMessage" value="Invalid cost"/>
         <classes>
