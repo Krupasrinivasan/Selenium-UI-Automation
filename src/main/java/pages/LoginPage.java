@@ -25,6 +25,9 @@ public class LoginPage {
     @FindBy(xpath="//*[@id=\"root\"]/div/div/div[2]/div/form/div[3]/a")
     WebElement signupPage;
 
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/div[2]/span/button")
+    WebElement eyeButton;
+
     public LoginPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -58,5 +61,8 @@ public class LoginPage {
 
     public String getActualMessageAfterInvalidLoginCredentials() {
         return failureMessage.getText();
+    }
+    public void clickEyeButton(){
+        eyeButton.click();
     }
 }

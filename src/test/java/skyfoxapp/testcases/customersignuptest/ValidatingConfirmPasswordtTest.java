@@ -36,6 +36,9 @@ public class ValidatingConfirmPasswordtTest extends BaseTest {
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
         sleep();
 
+        signuppage.clickEyeIconForPassword();
+        signuppage.clickEyeIconForConfirmPassword();
+
         signuppage.selectSomewhereOnTheSignUpform();
 
         sleep();
@@ -43,12 +46,12 @@ public class ValidatingConfirmPasswordtTest extends BaseTest {
         System.out.println(errorMessage);
 
         String actualFailureMessageForConfirmPassword = signuppage.getErrorMessageForConfirmPassword();
-//        System.out.println(actualFailureMessageForConfirmPassword);
-//
-//        Assert.assertTrue(actualFailureMessageForConfirmPassword.contains(errorMessage), "Actual failure message does not match expected failure message." +
-//                "\nActual failure message: " + actualFailureMessageForConfirmPassword +
-//                "\nExpected failure message: " + errorMessage);
-//        Thread.sleep(30000);
+        System.out.println(actualFailureMessageForConfirmPassword);
+
+        Assert.assertTrue(actualFailureMessageForConfirmPassword.contains(errorMessage), "Actual failure message does not match expected failure message." +
+                "\nActual failure message: " + actualFailureMessageForConfirmPassword +
+                "\nExpected failure message: " + errorMessage);
+        Thread.sleep(30000);
 
     }
     @AfterClass

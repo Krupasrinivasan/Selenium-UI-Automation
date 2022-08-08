@@ -6,11 +6,13 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import pages.CustomerSignupPage;
 import pages.LoginPage;
 
 public class NegativeLoginTest extends BaseTest {
 
     LoginPage loginpage;
+
 
     @BeforeClass
     public void openBrowser() {
@@ -23,6 +25,8 @@ public class NegativeLoginTest extends BaseTest {
     @Test(priority = 1)
     public void loginPageTest(String username, String password,String expectedFailureMessage) throws InterruptedException {
         loginpage.sendUsernamePassword(username, password);
+
+        loginpage.clickEyeButton();
         loginpage.clickLoginButton();
 
         sleep();

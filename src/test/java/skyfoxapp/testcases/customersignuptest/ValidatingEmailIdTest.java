@@ -34,6 +34,9 @@ public class ValidatingEmailIdTest extends BaseTest {
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
         sleep();
 
+        signuppage.clickEyeIconForPassword();
+        signuppage.clickEyeIconForConfirmPassword();
+
         sleep();
 
         String actualFailureMessageForEmail = signuppage.getErrorMessageForEmail();

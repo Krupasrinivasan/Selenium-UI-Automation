@@ -23,6 +23,8 @@ public class PositiveLoginTest extends BaseTest {
     @Test(priority = 1)
     public void loginPageTest(String username, String password) throws InterruptedException {
         loginpage.sendUsernamePassword(username,password);
+
+        loginpage.clickEyeButton();
         loginpage.clickLoginButton();
         sleep();
 

@@ -3,14 +3,14 @@
 <suite name="AllTests" verbose="1" >
     <test name="PositiveTests" >
         <parameter name="username" value="seed-user-1" />
-        <parameter name="password" value="foobar" />
+        <parameter name="password" value="Skyfox@123" />
         <classes>
             <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>
         </classes>
     </test>
     <test name="NegativeUsernameTest">
         <parameter name="username" value="seed"/>
-        <parameter name="password" value="foobar"/>
+        <parameter name="password" value="Skyfox@123"/>
         <parameter name="expectedFailureMessage" value="Login failed"/>
         <classes>
             <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
@@ -18,7 +18,7 @@
     </test>
     <test name="NegativePasswordTest">
         <parameter name="username" value="seed-user-1"/>
-        <parameter name="password" value="football"/>
+        <parameter name="password" value="foobar"/>
         <parameter name="expectedFailureMessage" value="Login failed"/>
         <classes>
             <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
@@ -27,7 +27,7 @@
 
     <test name="CustomerSignUpTestWithPositiveTestcases">
     <parameter name="name" value="aswini"></parameter>
-    <parameter name="user_name" value="aswini3"></parameter>
+    <parameter name="user_name" value="aswini4"></parameter>
     <parameter name="email_id" value="aswini@gmail.com"></parameter>
     <parameter name="mobile_num" value="9067834521"></parameter>
     <parameter name="pass" value="Aswini.1"></parameter>

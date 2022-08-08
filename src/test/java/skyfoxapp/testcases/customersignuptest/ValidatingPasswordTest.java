@@ -33,7 +33,9 @@ public class ValidatingPasswordTest extends BaseTest {
 
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
         sleep();
-        System.out.println(errorMessage);
+
+        signuppage.clickEyeIconForPassword();
+        signuppage.clickEyeIconForConfirmPassword();
 
         String actualFailureMessageForPassword = signuppage.getErrorMessageForPassword();
         System.out.println(actualFailureMessageForPassword);

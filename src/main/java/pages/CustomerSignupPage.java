@@ -62,6 +62,11 @@ public class CustomerSignupPage {
 
     @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div")
     WebElement signupform;
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/div[5]/span/button")
+    WebElement eyeiconforpassword;
+
+    @FindBy(xpath="//*[@id=\"root\"]/div/div/div[2]/div/form/div[6]/span/button")
+    WebElement eyeiconforconfirmpassword;
 
 
     public CustomerSignupPage(WebDriver driver) {
@@ -126,6 +131,13 @@ public class CustomerSignupPage {
 
     public String validateSignupUrl() {
         return driver.getCurrentUrl();
+    }
+
+    public void clickEyeIconForPassword(){
+        eyeiconforpassword.click();
+    }
+    public void clickEyeIconForConfirmPassword(){
+        eyeiconforconfirmpassword.click();
     }
 
 
