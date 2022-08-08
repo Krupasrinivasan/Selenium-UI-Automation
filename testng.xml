@@ -179,6 +179,18 @@
             <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>
         </classes>
     </test>
+    <test name="passwordWhichDoesNotMatchAnyCriteria">
+        <parameter name="name" value="aswini"></parameter>
+        <parameter name="user_name" value="aswini"></parameter>
+        <parameter name="email_id" value="aswini@gmail.com"></parameter>
+        <parameter name="mobile_num" value="9087654321"></parameter>
+        <parameter name="pass" value="abcdef"></parameter>
+        <parameter name="confirm_pass" value="abcdef"></parameter>
+        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>
+        <classes>
+            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>
+        </classes>
+    </test>
     <test name="passwordDoesNotMatchConfirmPass">
             <parameter name="name" value="aswini"></parameter>
             <parameter name="user_name" value="aswini"></parameter>

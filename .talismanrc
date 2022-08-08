@@ -1,5 +1,4 @@
 fileignoreconfig:
 - filename: testng.xml
-  checksum: eee8fce34ea8501ebf3907be62a4d4cdd93763469b1735d1e9561e117df59adf
-
+  checksum: e62bb9ff70397b8581d99e38306a0a98944e95c2198247f313d20fdd11e99807
 version: ""
