@@ -4,33 +4,35 @@
     <listeners>
         <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners" />
     </listeners>
-<!--    <test name="PositiveTests" >-->
-<!--        <parameter name="username" value="seed-user-2" />-->
-<!--        <parameter name="password" value="foobar" />-->
-<!--        <classes>-->
-<!--            <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="NegativeUsernameTest">-->
-<!--        <parameter name="username" value="seed"/>-->
-<!--        <parameter name="password" value="foobar"/>-->
-<!--        <parameter name="expectedFailureMessage" value="Login failed"/>-->
-<!--        <classes>-->
-<!--            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="NegativePasswordTest">-->
-<!--        <parameter name="username" value="seed-user-1"/>-->
-<!--        <parameter name="password" value="foobar"/>-->
-<!--        <parameter name="expectedFailureMessage" value="Login failed"/>-->
-<!--        <classes>-->
-<!--            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+
+    <test name="PositiveTests" >
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <classes>
+            <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>
+        </classes>
+    </test>
+    <test name="NegativeUsernameTest">
+        <parameter name="username" value="Karthinivah" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="expectedFailureMessage" value="Login failed"/>
+        <classes>
+            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
+        </classes>
+    </test>
+    <test name="NegativePasswordTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@1" />
+        <parameter name="expectedFailureMessage" value="Login failed"/>
+        <classes>
+            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
+        </classes>
+    </test>
+
 
     <test name="CustomerSignUpTestWithPositiveTestcases">
     <parameter name="name" value="aswini"></parameter>
-    <parameter name="user_name" value="aswini4"></parameter>
+    <parameter name="user_name" value="aswini9"></parameter>
     <parameter name="email_id" value="aswini@gmail.com"></parameter>
     <parameter name="mobile_num" value="9067834521"></parameter>
     <parameter name="pass" value="Aswini.1"></parameter>
@@ -205,8 +207,8 @@
         </test>
 
     <test name="PositiveScheduleTests" >
-        <parameter name="username" value="seed-user-2" />
-        <parameter name="password" value="foobar" />
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
         <parameter name="cost" value="200" />
         <classes>
             <class name="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest"/>
@@ -214,12 +216,63 @@
     </test>
 
     <test name="NegativeScheduleTests" >
-        <parameter name="username" value="seed-user-2" />
-        <parameter name="password" value="foobar" />
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
         <parameter name="cost" value="vmn" />
         <parameter name="expectedFailureMessage" value="Invalid cost"/>
         <classes>
             <class name="skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest"/>
+        </classes>
+    </test>
+
+    <test name = "PositiveChangePasswordTest ">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="Skyfox@4"/>
+        <parameter name="confirmPassword" value="Skyfox@4"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest"/>
+        </classes>
+    </test>
+    <test name = "ValidateNewPasswordTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="Skyfox4"/>
+        <parameter name="confirmPassword" value="Skyfox4"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>
+        </classes>
+    </test>
+    <test name = "ValidateConfirmPasswordTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="Skyfox@4"/>
+        <parameter name="confirmPassword" value="Skyfox4"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest"/>
+        </classes>
+    </test>
+    <test name = "ValidatePreviousPasswordTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="Gurleen@2"/>
+        <parameter name="confirmPassword" value="Gurleen@2"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest"/>
+        </classes>
+    </test>
+    <test name = "ValidateInvalidCurrentPasswordTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Skyfox@4"/>
+        <parameter name="newPassword" value="Skyfox@5"/>
+        <parameter name="confirmPassword" value="Skyfox@5"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest"/>
         </classes>
     </test>
 </suite>
