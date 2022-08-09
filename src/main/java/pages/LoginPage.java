@@ -65,4 +65,8 @@ public class LoginPage {
     public void clickEyeButton(){
         eyeButton.click();
     }
+    public boolean availabilityOfSignUpPage(){
+        return signupPage.isDisplayed();
+    }
+    
 }

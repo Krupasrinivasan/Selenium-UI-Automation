@@ -4,29 +4,29 @@
     <listeners>
         <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners" />
     </listeners>
-    <test name="PositiveTests" >
-        <parameter name="username" value="seed-user-2" />
-        <parameter name="password" value="foobar" />
-        <classes>
-            <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>
-        </classes>
-    </test>
-    <test name="NegativeUsernameTest">
-        <parameter name="username" value="seed"/>
-        <parameter name="password" value="foobar"/>
-        <parameter name="expectedFailureMessage" value="Login failed"/>
-        <classes>
-            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
-        </classes>
-    </test>
-    <test name="NegativePasswordTest">
-        <parameter name="username" value="seed-user-1"/>
-        <parameter name="password" value="foobar"/>
-        <parameter name="expectedFailureMessage" value="Login failed"/>
-        <classes>
-            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
-        </classes>
-    </test>
+<!--    <test name="PositiveTests" >-->
+<!--        <parameter name="username" value="seed-user-2" />-->
+<!--        <parameter name="password" value="foobar" />-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="NegativeUsernameTest">-->
+<!--        <parameter name="username" value="seed"/>-->
+<!--        <parameter name="password" value="foobar"/>-->
+<!--        <parameter name="expectedFailureMessage" value="Login failed"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="NegativePasswordTest">-->
+<!--        <parameter name="username" value="seed-user-1"/>-->
+<!--        <parameter name="password" value="foobar"/>-->
+<!--        <parameter name="expectedFailureMessage" value="Login failed"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="CustomerSignUpTestWithPositiveTestcases">
     <parameter name="name" value="aswini"></parameter>

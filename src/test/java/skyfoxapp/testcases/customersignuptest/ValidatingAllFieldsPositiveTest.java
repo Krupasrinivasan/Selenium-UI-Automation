@@ -25,6 +25,10 @@ public class ValidatingAllFieldsPositiveTest extends BaseTest {
     @Parameters({"name","user_name","email_id","mobile_num","pass","confirm_pass"})
     @Test
     public void customerSignupPageTest(String full_name,String user_name,String email_id,String mobile_num,String pass,String confirm_pass) throws InterruptedException {
+        loginpage.availabilityOfSignUpPage();
+        Assert.assertTrue(loginpage.availabilityOfSignUpPage());
+        sleep();
+
         loginpage.clickSignupLink();
         sleep();
 
