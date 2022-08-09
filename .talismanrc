@@ -1,4 +1,10 @@
 fileignoreconfig:
-- filename: testng.xml
-  checksum: 0aab8aeb3c857bb0daf50b6748ed747a7923b072df7f74983689ceebe8c8a814
+- filename: src/test/java/skyfoxapp/testcases/changepasswordtest/ValidateConfirmPasswordTest.java
+  checksum: 7e7edccea67d11cae1f5cbf8d73b0e51daa2e5cadea401a205e191dd458e3f6b
+- filename: src/test/java/skyfoxapp/testcases/changepasswordtest/ValidateInvalidCurrentPasswordTest.java
+  checksum: 18efe1634065816ade59e732bdf0fdc195612641f8874f18d89023e7b5b3a4e0
+- filename: src/test/java/skyfoxapp/testcases/changepasswordtest/ValidateNewPasswordTest.java
+  checksum: 1f67ce9ed05d8312c576dcb5de9ccce650652c7183bbd9ea76613657e90f9caf
+- filename: src/test/java/skyfoxapp/testcases/changepasswordtest/ValidatePreviousPasswordTest.java
+  checksum: 47b35fa52bef0ab22599f1c988f66a59c5bebfed5df2c3f195b5accd73b30b6c
 version: ""
