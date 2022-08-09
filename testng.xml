@@ -32,7 +32,7 @@
 
     <test name="CustomerSignUpTestWithPositiveTestcases">
     <parameter name="name" value="aswini"></parameter>
-    <parameter name="user_name" value="aswini9"></parameter>
+    <parameter name="user_name" value="aswini10"></parameter>
     <parameter name="email_id" value="aswini@gmail.com"></parameter>
     <parameter name="mobile_num" value="9067834521"></parameter>
     <parameter name="pass" value="Aswini.1"></parameter>

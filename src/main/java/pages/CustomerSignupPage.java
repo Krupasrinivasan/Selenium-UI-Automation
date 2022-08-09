@@ -69,6 +69,9 @@ public class CustomerSignupPage {
     @FindBy(xpath="//*[@id=\"root\"]/div/div/div[2]/div/form/div[6]/span/button")
     WebElement eyeiconforconfirmpassword;
 
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div")
+    WebElement signupFormPopup;
+
 
     public CustomerSignupPage(WebDriver driver) {
         this.driver = driver;
@@ -141,5 +144,11 @@ public class CustomerSignupPage {
         eyeiconforconfirmpassword.click();
     }
 
+    public boolean availabiltyOfSignupForm(){
+        return signupFormPopup.isDisplayed();
+    }
+    public boolean enablesignupButton(){
+        return signupButton.isEnabled();
+    }
 
 }
