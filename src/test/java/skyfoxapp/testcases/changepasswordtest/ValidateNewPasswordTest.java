@@ -8,7 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pages.ChangePasswordPage;
 
-public class PositiveChangePasswordTest extends BaseTest {
+public class ValidateNewPasswordTest extends BaseTest {
 
     ChangePasswordPage changePasswordPage;
     @BeforeClass
@@ -48,17 +48,17 @@ public class PositiveChangePasswordTest extends BaseTest {
         Assert.assertTrue(changePasswordHeader.contains("Change Password"),"Change password header mismatch");
         changePasswordPage.sendChangePasswordDetails(oldPassword,newPassword,confirmPassword);
         System.out.println("Entered all fields");
-        changePasswordPage.cickeyeicon();
-        sleep();
-        sleep();
+
+       String newPasswordErrorMessage1 = changePasswordPage.getNewPasswordErrorMessage1();
+        Assert.assertTrue(newPasswordErrorMessage1.contains("Password must contain 8-64 characters,"),"New password error message1 mismatch");
+        String newPasswordErrorMessage2 = changePasswordPage.getNewPasswordErrorMessage2();
+        Assert.assertTrue(newPasswordErrorMessage2.contains("at least one uppercase character,"),"New password error message2 mismatch");
+        String newPasswordErrorMessage3 = changePasswordPage.getNewPasswordErrorMessage3();
+        Assert.assertTrue(newPasswordErrorMessage3.contains("one number and one special character"),"New password error message3 mismatch");
 
         boolean clickable = changePasswordPage.checkChangePasswordSubmitButton();
-        Assert.assertTrue(clickable,"Change password submit button is not Clickable");
+        Assert.assertFalse(clickable,"Change password submit button is Clickable");
 
-//       changePasswordPage.clickChangePasswordSubmitButton();
-//       sleep();
-//       String successMessage = changePasswordPage.getSuccessMessage();
-//       Assert.assertTrue(successMessage.contains("Your password has been changed successfully"),"Success message  mismatch");
         changePasswordPage.clickCrossMark();
     }
     @AfterClass
@@ -67,3 +67,4 @@ public class PositiveChangePasswordTest extends BaseTest {
         tearDown();
     }
 }
+

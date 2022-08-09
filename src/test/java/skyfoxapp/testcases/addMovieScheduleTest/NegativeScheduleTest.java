@@ -31,6 +31,7 @@ public class NegativeScheduleTest extends BaseTest {
         driver.navigate().to("http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/shows?date=2022-08-22");
 
         System.out.println("new page");
+        Thread.sleep(3000);
         AddMovieSchedulePage.clickScheduleButton();
         System.out.println("Clicked Schedule Button");
         sleep();

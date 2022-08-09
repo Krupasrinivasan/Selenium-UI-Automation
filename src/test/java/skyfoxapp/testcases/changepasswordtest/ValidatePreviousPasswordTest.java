@@ -8,7 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pages.ChangePasswordPage;
 
-public class PositiveChangePasswordTest extends BaseTest {
+public class ValidatePreviousPasswordTest extends BaseTest {
 
     ChangePasswordPage changePasswordPage;
     @BeforeClass
@@ -28,7 +28,7 @@ public class PositiveChangePasswordTest extends BaseTest {
         String actualUrl = changePasswordPage.validateLoginUrl();
         Assert.assertNotEquals(actualUrl, changePasswordPage.url, "Login failed");
 
-        Thread.sleep(1000);
+        sleep();
         changePasswordPage.clickProfileIcon();
         System.out.println("Clicked profile icon");
 
@@ -48,17 +48,14 @@ public class PositiveChangePasswordTest extends BaseTest {
         Assert.assertTrue(changePasswordHeader.contains("Change Password"),"Change password header mismatch");
         changePasswordPage.sendChangePasswordDetails(oldPassword,newPassword,confirmPassword);
         System.out.println("Entered all fields");
-        changePasswordPage.cickeyeicon();
-        sleep();
-        sleep();
 
         boolean clickable = changePasswordPage.checkChangePasswordSubmitButton();
         Assert.assertTrue(clickable,"Change password submit button is not Clickable");
 
-//       changePasswordPage.clickChangePasswordSubmitButton();
-//       sleep();
-//       String successMessage = changePasswordPage.getSuccessMessage();
-//       Assert.assertTrue(successMessage.contains("Your password has been changed successfully"),"Success message  mismatch");
+        changePasswordPage.clickChangePasswordSubmitButton();
+       Thread.sleep(1000);
+       String failureMessage = changePasswordPage.getFailureMessage();
+       Assert.assertTrue(failureMessage.contains("Password cannot be last three passwords"),"Previous passsword message mismatch");
         changePasswordPage.clickCrossMark();
     }
     @AfterClass
@@ -67,3 +64,4 @@ public class PositiveChangePasswordTest extends BaseTest {
         tearDown();
     }
 }
+

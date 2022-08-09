@@ -51,7 +51,7 @@ public class ValidatingConfirmPasswordtTest extends BaseTest {
         Assert.assertTrue(actualFailureMessageForConfirmPassword.contains(errorMessage), "Actual failure message does not match expected failure message." +
                 "\nActual failure message: " + actualFailureMessageForConfirmPassword +
                 "\nExpected failure message: " + errorMessage);
-        Thread.sleep(30000);
+        Thread.sleep(500);
 
     }
     @AfterClass
