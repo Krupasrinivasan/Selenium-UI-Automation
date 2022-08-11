@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-    private WebDriver driver;
+    WebDriver driver;
     public String url = "http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login";
     @FindBy(name = "username" )
     WebElement username;
@@ -35,7 +35,6 @@ public class LoginPage {
 
     public void openLoginPageUrl(){
         System.out.println("Starting login test");
-        String url="http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login";
         driver.get(url);
     }
 

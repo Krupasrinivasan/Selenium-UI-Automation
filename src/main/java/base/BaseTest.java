@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class BaseTest {
 
-    protected WebDriver driver;
+    public WebDriver driver;
 
     public void setUp() {
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
@@ -15,7 +15,7 @@ public class BaseTest {
     }
 
     public void sleep() throws InterruptedException {
-        Thread.sleep(500);
+        Thread.sleep(1000);
     }
     public void tearDown() {
         driver.quit();

@@ -5,6 +5,8 @@
         <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners" />
     </listeners>
 
+
+
     <test name="PositiveTests" >
         <parameter name="username" value="Karthinivash" />
         <parameter name="password" value="Gurleen@2" />
@@ -225,6 +227,7 @@
         </classes>
     </test>
 
+
     <test name = "PositiveChangePasswordTest ">
         <parameter name="username" value="Karthinivash" />
         <parameter name="password" value="Gurleen@2" />
@@ -275,4 +278,15 @@
             <class name="skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest"/>
         </classes>
     </test>
+
+
+
+    <test name="PositiveViewMoviePosterTests">
+        <parameter name="username" value="Karthinivash"/>
+        <parameter name="password" value="Gurleen@2"/>
+        <classes>
+            <class name="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster"/>
+        </classes>
+    </test>
+
 </suite>
