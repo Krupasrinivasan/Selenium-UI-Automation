@@ -1,8 +1,6 @@
 package skyfoxapp.testcases.customersignuptest;
 
 import base.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -10,14 +8,6 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pages.CustomerSignupPage;
 import pages.LoginPage;
-import ru.yandex.qatools.ashot.AShot;
-import ru.yandex.qatools.ashot.Screenshot;
-import ru.yandex.qatools.ashot.comparison.ImageDiff;
-import ru.yandex.qatools.ashot.comparison.ImageDiffer;
-
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBuffer;
-import java.io.File;
 
 public class ValidatingAllFieldsPositiveTest extends BaseTest {
     LoginPage loginpage;

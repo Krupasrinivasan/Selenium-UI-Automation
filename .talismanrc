@@ -1,7 +1,4 @@
 fileignoreconfig:
-- filename: src/test/java/skyfoxapp/testcases/changepasswordtest/PositiveChangePasswordTest.java
-  checksum: 4717e357bf4c68d5358db9e2e70c5cf78c7e067ed69922c138af59b427519d5a
 - filename: testng.xml
-  checksum: 97e2b8d1bb77aa36e4c2e7647209e0e36a4039de27a54451ff5393415651c786
+  checksum: b7e25f887a07b8c4095c34abce2208016534ef953b5e37af3c11972349db1c32
 version: ""
-
