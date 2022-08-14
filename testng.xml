@@ -5,8 +5,6 @@
         <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners" />
     </listeners>
 
-
-
     <test name="PositiveTests" >
         <parameter name="username" value="Karthinivash" />
         <parameter name="password" value="Gurleen@2" />

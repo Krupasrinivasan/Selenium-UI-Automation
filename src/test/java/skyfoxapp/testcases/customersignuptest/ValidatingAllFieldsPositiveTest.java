@@ -1,6 +1,8 @@
 package skyfoxapp.testcases.customersignuptest;
 
 import base.BaseTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -8,6 +10,14 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pages.CustomerSignupPage;
 import pages.LoginPage;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.comparison.ImageDiff;
+import ru.yandex.qatools.ashot.comparison.ImageDiffer;
+
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBuffer;
+import java.io.File;
 
 public class ValidatingAllFieldsPositiveTest extends BaseTest {
     LoginPage loginpage;
@@ -24,7 +34,7 @@ public class ValidatingAllFieldsPositiveTest extends BaseTest {
     }
     @Parameters({"name","user_name","email_id","mobile_num","pass","confirm_pass"})
     @Test
-    public void customerSignupPageTest(String full_name,String user_name,String email_id,String mobile_num,String pass,String confirm_pass) throws InterruptedException {
+    public void customerSignupPageTest(String full_name,String user_name,String email_id,String mobile_num,String pass,String confirm_pass) throws Exception {
 
         Assert.assertTrue(loginpage.availabilityOfSignUpPage());
         sleep();
@@ -34,16 +44,33 @@ public class ValidatingAllFieldsPositiveTest extends BaseTest {
 
         String actualUrl = signuppage.validateSignupPageUrl();
 
-        Assert.assertTrue(signuppage.availabiltyOfSignupForm());
+
 
         Assert.assertEquals(actualUrl, signuppage.url, "Actual page url is not as expected");
         System.out.println(signuppage.url);
 
+        Assert.assertTrue(signuppage.availabiltyOfSignupForm());
+        Assert.assertTrue(signuppage.availabiltyOfNameField());
+        Assert.assertTrue(signuppage.availabiltyOfUserNameField());
+        Assert.assertTrue(signuppage.availabiltyOfemailField());
+        Assert.assertTrue(signuppage.availabiltyOfpasswordField());
+        Assert.assertTrue(signuppage.availabiltyOfconfirmPasswordField());
+
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
         sleep();
 
-        signuppage.enablesignupButton();
+        signuppage.takeScreenShot(driver, "/Users/aswini/Documents/Projects/neev-beta-01-booking-ui-automation-repo/EyeIconBeforeClick.png") ;
+        signuppage.clickEyeIconForPassword();
+        signuppage.clickEyeIconForConfirmPassword();
+        signuppage.testImageComparison();
+
+        Assert.assertFalse(signuppage.testImageComparison());
+
+        Assert.assertTrue(signuppage.enablesignupButton());
         sleep();
+        Assert.assertFalse(signuppage.UnavailbiltyOfUserNameExistMessage());
+        sleep();
+
     }
     @AfterClass
     public void closeBrowser() throws InterruptedException {

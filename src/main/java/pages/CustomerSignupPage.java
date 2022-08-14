@@ -1,9 +1,20 @@
 package pages;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.apache.commons.io.FileUtils;
+import org.testng.Assert;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBuffer;
+
+import java.io.File;
+import java.io.IOException;
 
 public class CustomerSignupPage {
     public String url = "http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup";
@@ -66,7 +77,7 @@ public class CustomerSignupPage {
     @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/div[5]/span/button")
     WebElement eyeiconforpassword;
 
-    @FindBy(xpath="//*[@id=\"root\"]/div/div/div[2]/div/form/div[6]/span/button")
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div/form/div[6]/span/button")
     WebElement eyeiconforconfirmpassword;
 
     @FindBy(xpath = "//*[@id=\"root\"]/div/div")
@@ -137,18 +148,85 @@ public class CustomerSignupPage {
         return driver.getCurrentUrl();
     }
 
-    public void clickEyeIconForPassword(){
+    public void clickEyeIconForPassword() {
         eyeiconforpassword.click();
     }
-    public void clickEyeIconForConfirmPassword(){
+
+    public void clickEyeIconForConfirmPassword() {
         eyeiconforconfirmpassword.click();
     }
 
-    public boolean availabiltyOfSignupForm(){
+    public boolean availabiltyOfSignupForm() {
         return signupFormPopup.isDisplayed();
     }
-    public boolean enablesignupButton(){
+
+    public boolean enablesignupButton() {
         return signupButton.isEnabled();
     }
 
+    public boolean availabiltyOfNameField() {
+        return name.isDisplayed();
+    }
+
+    public boolean availabiltyOfUserNameField() {
+        return username.isDisplayed();
+    }
+
+    public boolean availabiltyOfemailField() {
+        return email.isDisplayed();
+    }
+
+    public boolean availabiltyOfPhoneNumberField() {
+        return mobile_number.isDisplayed();
+    }
+
+    public boolean availabiltyOfpasswordField() {
+        return password.isDisplayed();
+    }
+
+    public boolean availabiltyOfconfirmPasswordField() {
+        return confirm_password.isDisplayed();
+    }
+
+    public boolean UnavailbiltyOfUserNameExistMessage() {
+        if (driver.getPageSource().contains("//*[@id=\"root\"]/div/div/div[2]/div/form/div[2]/p"))
+            return true;
+        else
+            return false;
+    }
+
+    public void takeScreenShot(WebDriver webdriver, String fileWithPath) throws Exception {
+        TakesScreenshot scrShot = ((TakesScreenshot) webdriver);
+        File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
+        File DestFile = new File(fileWithPath);
+        FileUtils.copyFile(SrcFile, DestFile);
+    }
+
+    public Boolean testImageComparison() throws IOException, InterruptedException {
+        File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        Thread.sleep(500);
+        FileUtils.copyFile(screenshot, new File("/Users/aswini/Documents/Projects/neev-beta-01-booking-ui-automation-repo/EyeIconAfterClick.png"));
+
+        File fileInput = new File("/Users/aswini/Documents/Projects/neev-beta-01-booking-ui-automation-repo/EyeIconBeforeClick.png");
+        File fileOutPut = new File("/Users/aswini/Documents/Projects/neev-beta-01-booking-ui-automation-repo/EyeIconAfterClick.png");
+
+        BufferedImage bufferedImage = ImageIO.read(fileInput);
+        DataBuffer bufferfileInput = bufferedImage.getData().getDataBuffer();
+        int sizefileInput = bufferfileInput.getSize();
+        BufferedImage bufferfileOutPut = ImageIO.read(fileOutPut);
+        DataBuffer datafileOutPut = bufferfileOutPut.getData().getDataBuffer();
+        int sizefileOutPut = datafileOutPut.getSize();
+        Boolean matchFlag = true;
+        if (sizefileInput == sizefileOutPut) {
+            for (int i = 0; i < sizefileInput; i++) {
+                if (bufferfileInput.getElem(i) != datafileOutPut.getElem(i)) {
+                    matchFlag = false;
+                    break;
+                }
+            }
+        } else {
+            matchFlag = false;
+        }
+        return matchFlag;
+    }
 }

@@ -67,5 +67,6 @@ public class LoginPage {
     public boolean availabilityOfSignUpPage(){
         return signupPage.isDisplayed();
     }
+
     
 }
