@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-12T17:04:29 IST" name="AllTests" finished-at="2022-08-12T17:08:08 IST" duration-ms="219759">
+    <groups>
+    </groups>
+    <test started-at="2022-08-12T17:04:29 IST" name="PositiveTests" finished-at="2022-08-12T17:04:33 IST" duration-ms="4468">
+      <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.loginpagetest.PositiveLoginTest@338fc1d8]" started-at="2022-08-12T17:04:29 IST" name="openBrowser" finished-at="2022-08-12T17:04:32 IST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginPageTest(java.lang.String,java.lang.String)[pri:1, instance:skyfoxapp.testcases.loginpagetest.PositiveLoginTest@338fc1d8]" started-at="2022-08-12T17:04:32 IST" name="loginPageTest" finished-at="2022-08-12T17:04:33 IST" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.loginpagetest.PositiveLoginTest@338fc1d8]" started-at="2022-08-12T17:04:33 IST" name="closeBrowser" finished-at="2022-08-12T17:04:33 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.loginpagetest.PositiveLoginTest -->
+    </test> <!-- PositiveTests -->
+    <test started-at="2022-08-12T17:04:33 IST" name="NegativeUsernameTest" finished-at="2022-08-12T17:04:39 IST" duration-ms="6318">
+      <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.loginpagetest.NegativeLoginTest@6f43c82]" started-at="2022-08-12T17:04:33 IST" name="openBrowser" finished-at="2022-08-12T17:04:36 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginPageTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:skyfoxapp.testcases.loginpagetest.NegativeLoginTest@6f43c82]" started-at="2022-08-12T17:04:36 IST" name="loginPageTest" finished-at="2022-08-12T17:04:39 IST" duration-ms="3232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.loginpagetest.NegativeLoginTest@6f43c82]" started-at="2022-08-12T17:04:39 IST" name="closeBrowser" finished-at="2022-08-12T17:04:39 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.loginpagetest.NegativeLoginTest -->
+    </test> <!-- NegativeUsernameTest -->
+    <test started-at="2022-08-12T17:04:39 IST" name="NegativePasswordTest" finished-at="2022-08-12T17:04:45 IST" duration-ms="6052">
+      <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.loginpagetest.NegativeLoginTest@7857fe2]" started-at="2022-08-12T17:04:39 IST" name="openBrowser" finished-at="2022-08-12T17:04:42 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginPageTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:skyfoxapp.testcases.loginpagetest.NegativeLoginTest@7857fe2]" started-at="2022-08-12T17:04:42 IST" name="loginPageTest" finished-at="2022-08-12T17:04:45 IST" duration-ms="3192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.loginpagetest.NegativeLoginTest@7857fe2]" started-at="2022-08-12T17:04:45 IST" name="closeBrowser" finished-at="2022-08-12T17:04:45 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.loginpagetest.NegativeLoginTest -->
+    </test> <!-- NegativePasswordTest -->
+    <test started-at="2022-08-12T17:04:45 IST" name="CustomerSignUpTestWithPositiveTestcases" finished-at="2022-08-12T17:04:54 IST" duration-ms="8125">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest@4f0f2942]" started-at="2022-08-12T17:04:45 IST" name="openBrowser" finished-at="2022-08-12T17:04:49 IST" duration-ms="3439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="customerSignupPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest@4f0f2942]" started-at="2022-08-12T17:04:49 IST" name="customerSignupPageTest" finished-at="2022-08-12T17:04:53 IST" duration-ms="4567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9067834521]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerSignupPageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest@4f0f2942]" started-at="2022-08-12T17:04:53 IST" name="closeBrowser" finished-at="2022-08-12T17:04:54 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest -->
+    </test> <!-- CustomerSignUpTestWithPositiveTestcases -->
+    <test started-at="2022-08-12T17:04:54 IST" name="CustomerSignUpTestWithAllFieldRequired" finished-at="2022-08-12T17:05:06 IST" duration-ms="12314">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest@69504ae9]" started-at="2022-08-12T17:04:54 IST" name="openBrowser" finished-at="2022-08-12T17:04:57 IST" duration-ms="3524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="customerSignupPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest@69504ae9]" started-at="2022-08-12T17:04:57 IST" name="customerSignupPageTest" finished-at="2022-08-12T17:05:06 IST" duration-ms="8678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Name is required]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Email is required]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Mobile number is required]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerSignupPageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest@69504ae9]" started-at="2022-08-12T17:05:06 IST" name="closeBrowser" finished-at="2022-08-12T17:05:06 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest -->
+    </test> <!-- CustomerSignUpTestWithAllFieldRequired -->
+    <test started-at="2022-08-12T17:05:06 IST" name="UsernameChecking" finished-at="2022-08-12T17:05:18 IST" duration-ms="12070">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest@57db2b13]" started-at="2022-08-12T17:05:06 IST" name="openBrowser" finished-at="2022-08-12T17:05:13 IST" duration-ms="7347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="usernameValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest@57db2b13]" started-at="2022-08-12T17:05:13 IST" name="usernameValidityChecking" finished-at="2022-08-12T17:05:18 IST" duration-ms="4612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seed-user-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[A user with the username already exists]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest@57db2b13]" started-at="2022-08-12T17:05:18 IST" name="closeBrowser" finished-at="2022-08-12T17:05:18 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest -->
+    </test> <!-- UsernameChecking -->
+    <test started-at="2022-08-12T17:05:18 IST" name="EmailCheckingwithoutAstreik" finished-at="2022-08-12T17:05:26 IST" duration-ms="7805">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest@1807f5a7]" started-at="2022-08-12T17:05:18 IST" name="openBrowser" finished-at="2022-08-12T17:05:22 IST" duration-ms="4070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emailValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest@1807f5a7]" started-at="2022-08-12T17:05:22 IST" name="emailValidityChecking" finished-at="2022-08-12T17:05:26 IST" duration-ms="3626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswinigmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Invalid Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest@1807f5a7]" started-at="2022-08-12T17:05:26 IST" name="closeBrowser" finished-at="2022-08-12T17:05:26 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest -->
+    </test> <!-- EmailCheckingwithoutAstreik -->
+    <test started-at="2022-08-12T17:05:26 IST" name="EmailCheckingwithoutDot" finished-at="2022-08-12T17:05:33 IST" duration-ms="7477">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest@6a4f1a55]" started-at="2022-08-12T17:05:26 IST" name="openBrowser" finished-at="2022-08-12T17:05:30 IST" duration-ms="3749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emailValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest@6a4f1a55]" started-at="2022-08-12T17:05:30 IST" name="emailValidityChecking" finished-at="2022-08-12T17:05:33 IST" duration-ms="3623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Invalid Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest@6a4f1a55]" started-at="2022-08-12T17:05:33 IST" name="closeBrowser" finished-at="2022-08-12T17:05:33 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest -->
+    </test> <!-- EmailCheckingwithoutDot -->
+    <test started-at="2022-08-12T17:05:33 IST" name="MobileNumberValdatingWithLessThan10Digit" finished-at="2022-08-12T17:05:41 IST" duration-ms="7711">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest@7dfb0c0f]" started-at="2022-08-12T17:05:33 IST" name="openBrowser" finished-at="2022-08-12T17:05:37 IST" duration-ms="3969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="mobileNumberValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest@7dfb0c0f]" started-at="2022-08-12T17:05:37 IST" name="mobileNumberValidityChecking" finished-at="2022-08-12T17:05:41 IST" duration-ms="3626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Enter a valid mobile number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumberValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest@7dfb0c0f]" started-at="2022-08-12T17:05:41 IST" name="closeBrowser" finished-at="2022-08-12T17:05:41 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest -->
+    </test> <!-- MobileNumberValdatingWithLessThan10Digit -->
+    <test started-at="2022-08-12T17:05:41 IST" name="MobileNumberValdatingWithMorehan10Digit" finished-at="2022-08-12T17:05:50 IST" duration-ms="9411">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest@3aa078fd]" started-at="2022-08-12T17:05:41 IST" name="openBrowser" finished-at="2022-08-12T17:05:47 IST" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="mobileNumberValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest@3aa078fd]" started-at="2022-08-12T17:05:47 IST" name="mobileNumberValidityChecking" finished-at="2022-08-12T17:05:50 IST" duration-ms="3613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[908765423456789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Enter a valid mobile number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumberValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest@3aa078fd]" started-at="2022-08-12T17:05:50 IST" name="closeBrowser" finished-at="2022-08-12T17:05:50 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest -->
+    </test> <!-- MobileNumberValdatingWithMorehan10Digit -->
+    <test started-at="2022-08-12T17:05:50 IST" name="passwordWithoutUppercase" finished-at="2022-08-12T17:05:57 IST" duration-ms="6208">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@5efa40fe]" started-at="2022-08-12T17:05:50 IST" name="openBrowser" finished-at="2022-08-12T17:05:54 IST" duration-ms="3541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="passwordValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@5efa40fe]" started-at="2022-08-12T17:05:54 IST" name="passwordValidityChecking" finished-at="2022-08-12T17:05:56 IST" duration-ms="2553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[aswini.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[aswini.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@5efa40fe]" started-at="2022-08-12T17:05:56 IST" name="closeBrowser" finished-at="2022-08-12T17:05:57 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest -->
+    </test> <!-- passwordWithoutUppercase -->
+    <test started-at="2022-08-12T17:05:57 IST" name="passwordWithoutDigit" finished-at="2022-08-12T17:06:03 IST" duration-ms="6244">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@49c90a9c]" started-at="2022-08-12T17:05:57 IST" name="openBrowser" finished-at="2022-08-12T17:06:00 IST" duration-ms="3558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="passwordValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@49c90a9c]" started-at="2022-08-12T17:06:00 IST" name="passwordValidityChecking" finished-at="2022-08-12T17:06:03 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini..]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aswini..]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@49c90a9c]" started-at="2022-08-12T17:06:03 IST" name="closeBrowser" finished-at="2022-08-12T17:06:03 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest -->
+    </test> <!-- passwordWithoutDigit -->
+    <test started-at="2022-08-12T17:06:03 IST" name="passwordWithoutSpecialCharacter" finished-at="2022-08-12T17:06:09 IST" duration-ms="6263">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@6f36c2f0]" started-at="2022-08-12T17:06:03 IST" name="openBrowser" finished-at="2022-08-12T17:06:06 IST" duration-ms="3551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="passwordValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@6f36c2f0]" started-at="2022-08-12T17:06:06 IST" name="passwordValidityChecking" finished-at="2022-08-12T17:06:09 IST" duration-ms="2592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aswini11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@6f36c2f0]" started-at="2022-08-12T17:06:09 IST" name="closeBrowser" finished-at="2022-08-12T17:06:09 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest -->
+    </test> <!-- passwordWithoutSpecialCharacter -->
+    <test started-at="2022-08-12T17:06:09 IST" name="passwordWithLessThan8digits" finished-at="2022-08-12T17:06:15 IST" duration-ms="6043">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@700fb871]" started-at="2022-08-12T17:06:09 IST" name="openBrowser" finished-at="2022-08-12T17:06:12 IST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="passwordValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@700fb871]" started-at="2022-08-12T17:06:12 IST" name="passwordValidityChecking" finished-at="2022-08-12T17:06:15 IST" duration-ms="2567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Abc.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Abc.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@700fb871]" started-at="2022-08-12T17:06:15 IST" name="closeBrowser" finished-at="2022-08-12T17:06:15 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest -->
+    </test> <!-- passwordWithLessThan8digits -->
+    <test started-at="2022-08-12T17:06:15 IST" name="passwordWithGreaterThan64digits" finished-at="2022-08-12T17:06:21 IST" duration-ms="6076">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@13d73f29]" started-at="2022-08-12T17:06:15 IST" name="openBrowser" finished-at="2022-08-12T17:06:18 IST" duration-ms="3192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="passwordValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@13d73f29]" started-at="2022-08-12T17:06:18 IST" name="passwordValidityChecking" finished-at="2022-08-12T17:06:21 IST" duration-ms="2765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[A group of words containing a subject and a verb, that expresses a statement, a question, etc1.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A group of words containing a subject and a verb, that expresses a statement, a question, etc1.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@13d73f29]" started-at="2022-08-12T17:06:21 IST" name="closeBrowser" finished-at="2022-08-12T17:06:21 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest -->
+    </test> <!-- passwordWithGreaterThan64digits -->
+    <test started-at="2022-08-12T17:06:21 IST" name="passwordWhichDoesNotMatchAnyCriteria" finished-at="2022-08-12T17:06:29 IST" duration-ms="7784">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@5e3f861]" started-at="2022-08-12T17:06:21 IST" name="openBrowser" finished-at="2022-08-12T17:06:26 IST" duration-ms="5090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="passwordValidityChecking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@5e3f861]" started-at="2022-08-12T17:06:26 IST" name="passwordValidityChecking" finished-at="2022-08-12T17:06:29 IST" duration-ms="2583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordValidityChecking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest@5e3f861]" started-at="2022-08-12T17:06:29 IST" name="closeBrowser" finished-at="2022-08-12T17:06:29 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest -->
+    </test> <!-- passwordWhichDoesNotMatchAnyCriteria -->
+    <test started-at="2022-08-12T17:06:29 IST" name="passwordDoesNotMatchConfirmPass" finished-at="2022-08-12T17:06:39 IST" duration-ms="10063">
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest@311bf055]" started-at="2022-08-12T17:06:29 IST" name="openBrowser" finished-at="2022-08-12T17:06:34 IST" duration-ms="4825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="confirmPasswordAndPasswordMatchValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest@311bf055]" started-at="2022-08-12T17:06:34 IST" name="confirmPasswordAndPasswordMatchValidation" finished-at="2022-08-12T17:06:39 IST" duration-ms="5122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswini]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aswini@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9087654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aswini.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[aswini.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Password and confirm password do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmPasswordAndPasswordMatchValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest@311bf055]" started-at="2022-08-12T17:06:39 IST" name="closeBrowser" finished-at="2022-08-12T17:06:39 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest -->
+    </test> <!-- passwordDoesNotMatchConfirmPass -->
+    <test started-at="2022-08-12T17:06:39 IST" name="PositiveScheduleTests" finished-at="2022-08-12T17:06:53 IST" duration-ms="13615">
+      <class name="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest@147e2ae7]" started-at="2022-08-12T17:06:39 IST" name="openBrowser" finished-at="2022-08-12T17:06:42 IST" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="scheduleMovieTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest@147e2ae7]" started-at="2022-08-12T17:06:42 IST" name="scheduleMovieTest" finished-at="2022-08-12T17:06:53 IST" duration-ms="10973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleMovieTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest@147e2ae7]" started-at="2022-08-12T17:06:53 IST" name="closeBrowser" finished-at="2022-08-12T17:06:53 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest -->
+    </test> <!-- PositiveScheduleTests -->
+    <test started-at="2022-08-12T17:06:53 IST" name="NegativeScheduleTests" finished-at="2022-08-12T17:07:06 IST" duration-ms="12962">
+      <class name="skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest@503f91c3]" started-at="2022-08-12T17:06:53 IST" name="openBrowser" finished-at="2022-08-12T17:06:56 IST" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest@503f91c3]" started-at="2022-08-12T17:06:56 IST" name="loginPageTest" finished-at="2022-08-12T17:07:06 IST" duration-ms="9902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vmn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid cost]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest@503f91c3]" started-at="2022-08-12T17:07:06 IST" name="closeBrowser" finished-at="2022-08-12T17:07:06 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest -->
+    </test> <!-- NegativeScheduleTests -->
+    <test started-at="2022-08-12T17:07:06 IST" name="PositiveChangePasswordTest " finished-at="2022-08-12T17:07:17 IST" duration-ms="10896">
+      <class name="skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest@36804139]" started-at="2022-08-12T17:07:06 IST" name="openBrowser" finished-at="2022-08-12T17:07:09 IST" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="changePasswordTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest@36804139]" started-at="2022-08-12T17:07:09 IST" name="changePasswordTest" finished-at="2022-08-12T17:07:17 IST" duration-ms="7990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Skyfox@4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Skyfox@4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest@36804139]" started-at="2022-08-12T17:07:17 IST" name="closeBrowser" finished-at="2022-08-12T17:07:17 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest -->
+    </test> <!-- PositiveChangePasswordTest  -->
+    <test started-at="2022-08-12T17:07:17 IST" name="ValidateNewPasswordTest" finished-at="2022-08-12T17:07:28 IST" duration-ms="11014">
+      <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest@5c86dbc5]" started-at="2022-08-12T17:07:17 IST" name="openBrowser" finished-at="2022-08-12T17:07:19 IST" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="changePasswordTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest@5c86dbc5]" started-at="2022-08-12T17:07:19 IST" name="changePasswordTest" finished-at="2022-08-12T17:07:28 IST" duration-ms="8310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Skyfox4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Skyfox4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest@5c86dbc5]" started-at="2022-08-12T17:07:28 IST" name="closeBrowser" finished-at="2022-08-12T17:07:28 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest -->
+    </test> <!-- ValidateNewPasswordTest -->
+    <test started-at="2022-08-12T17:07:28 IST" name="ValidateConfirmPasswordTest" finished-at="2022-08-12T17:07:34 IST" duration-ms="5643">
+      <class name="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest@60db1c0e]" started-at="2022-08-12T17:07:28 IST" name="openBrowser" finished-at="2022-08-12T17:07:31 IST" duration-ms="2759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="changePasswordTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest@60db1c0e]" started-at="2022-08-12T17:07:31 IST" name="changePasswordTest" finished-at="2022-08-12T17:07:33 IST" duration-ms="2779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Skyfox@4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Skyfox4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest@60db1c0e]" started-at="2022-08-12T17:07:33 IST" name="closeBrowser" finished-at="2022-08-12T17:07:34 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest -->
+    </test> <!-- ValidateConfirmPasswordTest -->
+    <test started-at="2022-08-12T17:07:34 IST" name="ValidatePreviousPasswordTest" finished-at="2022-08-12T17:07:41 IST" duration-ms="7657">
+      <class name="skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest@2438dcd]" started-at="2022-08-12T17:07:34 IST" name="openBrowser" finished-at="2022-08-12T17:07:37 IST" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="changePasswordTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest@2438dcd]" started-at="2022-08-12T17:07:37 IST" name="changePasswordTest" finished-at="2022-08-12T17:07:41 IST" duration-ms="3879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest@2438dcd]" started-at="2022-08-12T17:07:41 IST" name="closeBrowser" finished-at="2022-08-12T17:07:41 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest -->
+    </test> <!-- ValidatePreviousPasswordTest -->
+    <test started-at="2022-08-12T17:07:41 IST" name="ValidateInvalidCurrentPasswordTest" finished-at="2022-08-12T17:07:48 IST" duration-ms="6784">
+      <class name="skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest@3e2055d6]" started-at="2022-08-12T17:07:41 IST" name="openBrowser" finished-at="2022-08-12T17:07:44 IST" duration-ms="2695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="changePasswordTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest@3e2055d6]" started-at="2022-08-12T17:07:44 IST" name="changePasswordTest" finished-at="2022-08-12T17:07:48 IST" duration-ms="3980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Skyfox@4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Skyfox@5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Skyfox@5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest@3e2055d6]" started-at="2022-08-12T17:07:48 IST" name="closeBrowser" finished-at="2022-08-12T17:07:48 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest -->
+    </test> <!-- ValidateInvalidCurrentPasswordTest -->
+    <test started-at="2022-08-12T17:07:48 IST" name="PositiveViewMoviePosterTests" finished-at="2022-08-12T17:08:08 IST" duration-ms="20344">
+      <class name="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster@7f2cfe3f]" started-at="2022-08-12T17:07:48 IST" name="openBrowser" finished-at="2022-08-12T17:07:50 IST" duration-ms="2233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="viewMoviePoster(java.lang.String,java.lang.String)[pri:0, instance:skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster@7f2cfe3f]" started-at="2022-08-12T17:07:50 IST" name="viewMoviePoster" finished-at="2022-08-12T17:08:08 IST" duration-ms="18001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthinivash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurleen@2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewMoviePoster -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster@7f2cfe3f]" started-at="2022-08-12T17:08:08 IST" name="closeBrowser" finished-at="2022-08-12T17:08:08 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster -->
+    </test> <!-- PositiveViewMoviePosterTests -->
+  </suite> <!-- AllTests -->
+</testng-results>

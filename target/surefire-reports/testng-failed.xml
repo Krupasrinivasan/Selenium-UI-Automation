@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners"/>
+  </listeners>
+  <test thread-count="5" name="CustomerSignUpTestWithAllFieldRequired(failed)" verbose="0">
+    <parameter name="email_id" value=""/>
+    <parameter name="confirm_pass" value=""/>
+    <parameter name="passwordErrorMessage" value="Password is required"/>
+    <parameter name="confirmPasswordErrorMessage" value="Password is required"/>
+    <parameter name="mobile_num" value=""/>
+    <parameter name="pass" value=""/>
+    <parameter name="user_name" value=""/>
+    <parameter name="name" value=""/>
+    <parameter name="usernameErrorMessage" value="Username is required"/>
+    <parameter name="nameErrorMessage" value="Name is required"/>
+    <parameter name="emailErrorMessage" value="Email is required"/>
+    <parameter name="mobileNumberErrorMessage" value="Mobile number is required"/>
+    <classes>
+      <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="customerSignupPageTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest -->
+    </classes>
+  </test> <!-- CustomerSignUpTestWithAllFieldRequired(failed) -->
+  <test thread-count="5" name="PositiveViewMoviePosterTests(failed)" verbose="0">
+    <parameter name="password" value="Gurleen@2"/>
+    <parameter name="username" value="Karthinivash"/>
+    <classes>
+      <class name="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="viewMoviePoster" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster -->
+    </classes>
+  </test> <!-- PositiveViewMoviePosterTests(failed) -->
+</suite> <!-- Failed suite [AllTests] -->

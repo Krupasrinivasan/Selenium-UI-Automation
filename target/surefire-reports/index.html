@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AllTests" class="navigator-link">
+              <span class="suite-name border-passed">AllTests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AllTests" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AllTests" class="navigator-link ">
+                    <span class="test-stats">25 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AllTests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AllTests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AllTests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AllTests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AllTests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AllTests" class="hide-methods passed suite-AllTests"> (hide)</a> <!-- hide-methods passed suite-AllTests -->
+                      <a href="#" panel-name="suite-AllTests" class="show-methods passed suite-AllTests"> (show)</a> <!-- show-methods passed suite-AllTests -->
+                    </span>
+                    <div class="method-list-content passed suite-AllTests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest" class="method navigator-link" hash-for-method="changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox@4)">changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox@4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" class="method navigator-link" hash-for-method="changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox4, Skyfox4)">changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox4, Skyfox4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest" class="method navigator-link" hash-for-method="changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox4)">changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest" class="method navigator-link" hash-for-method="changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Gurleen@2, Gurleen@2)">changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Gurleen@2, Gurleen@2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest" class="method navigator-link" hash-for-method="changePasswordTest(Karthinivash, Gurleen@2, Skyfox@4, Skyfox@5, Skyfox@5)">changePasswordTest(Karthinivash, Gurleen@2, Skyfox@4, Skyfox@5, Skyfox@5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest" class="method navigator-link" hash-for-method="confirmPasswordAndPasswordMatchValidation(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.1, aswini.1, Password and confirm password do n...)">confirmPasswordAndPasswordMatchValidation(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.1, aswini.1, Password and confirm password do n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest" class="method navigator-link" hash-for-method="customerSignupPageTest(aswini, aswini10, aswini@gmail.com, 9067834521, Aswini.1, Aswini.1)">customerSignupPageTest(aswini, aswini10, aswini@gmail.com, 9067834521, Aswini.1, Aswini.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest" class="method navigator-link" hash-for-method="customerSignupPageTest(, , , , , , Name is required, Username is required, Email is required, Mobile number is required, Pa...)">customerSignupPageTest(, , , , , , Name is required, Username is required, Email is required, Mobile number is required, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest" class="method navigator-link" hash-for-method="emailValidityChecking(aswini, aswini, aswinigmail.com, 9087654123, Aswini.1, Aswini.1, Invalid Email)">emailValidityChecking(aswini, aswini, aswinigmail.com, 9087654123, Aswini.1, Aswini.1, Invalid Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest" class="method navigator-link" hash-for-method="emailValidityChecking(aswini, aswini, aswini@gmailcom, 9087654123, Aswini.1, Aswini.1, Invalid Email)">emailValidityChecking(aswini, aswini, aswini@gmailcom, 9087654123, Aswini.1, Aswini.1, Invalid Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.loginpagetest.PositiveLoginTest" class="method navigator-link" hash-for-method="loginPageTest(Karthinivash, Gurleen@2)">loginPageTest(Karthinivash, Gurleen@2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.loginpagetest.NegativeLoginTest" class="method navigator-link" hash-for-method="loginPageTest(Karthinivah, Gurleen@2, Login failed)">loginPageTest(Karthinivah, Gurleen@2, Login failed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.loginpagetest.NegativeLoginTest" class="method navigator-link" hash-for-method="loginPageTest(Karthinivash, Gurleen@1, Login failed)">loginPageTest(Karthinivash, Gurleen@1, Login failed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest" class="method navigator-link" hash-for-method="loginPageTest(Karthinivash, Gurleen@2, vmn, Invalid cost)">loginPageTest(Karthinivash, Gurleen@2, vmn, Invalid cost)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest" class="method navigator-link" hash-for-method="mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 9087654, Aswini.1, Aswini.1, Enter a valid mobile number)">mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 9087654, Aswini.1, Aswini.1, Enter a valid mobile number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest" class="method navigator-link" hash-for-method="mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 908765423456789, Aswini.1, Aswini.1, Enter a valid mobile number)">mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 908765423456789, Aswini.1, Aswini.1, Enter a valid mobile number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" class="method navigator-link" hash-for-method="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, aswini.1, aswini.1, Password must contain 8-64 charact...)">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, aswini.1, aswini.1, Password must contain 8-64 charact...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" class="method navigator-link" hash-for-method="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.., Aswini.., Password must contain 8-64 charact...)">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.., Aswini.., Password must contain 8-64 charact...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" class="method navigator-link" hash-for-method="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini11, Aswini11, Password must contain 8-64 charact...)">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini11, Aswini11, Password must contain 8-64 charact...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" class="method navigator-link" hash-for-method="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Abc.1, Abc.1, Password must contain 8-64 characters,
+a...)">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Abc.1, Abc.1, Password must contain 8-64 characters,
+a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" class="method navigator-link" hash-for-method="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, A group of words containing a subject and a verb, that...)">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, A group of words containing a subject and a verb, that...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" class="method navigator-link" hash-for-method="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, abcdef, abcdef, Password must contain 8-64 characters,...)">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, abcdef, abcdef, Password must contain 8-64 characters,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest" class="method navigator-link" hash-for-method="scheduleMovieTest(Karthinivash, Gurleen@2, 200)">scheduleMovieTest(Karthinivash, Gurleen@2, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest" class="method navigator-link" hash-for-method="usernameValidityChecking(aswini, seed-user-1, aswini@gmail.com, 9087654123, Aswini.1, Aswini.1, A user with the username alre...)">usernameValidityChecking(aswini, seed-user-1, aswini@gmail.com, 9087654123, Aswini.1, Aswini.1, A user with the username alre...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster" class="method navigator-link" hash-for-method="viewMoviePoster(Karthinivash, Gurleen@2)">viewMoviePoster(Karthinivash, Gurleen@2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AllTests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AllTests" class="panel AllTests">
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordTest(Karthinivash, Gurleen@2, Skyfox@4, Skyfox@5, Skyfox@5)">
+                  </a> <!-- changePasswordTest(Karthinivash, Gurleen@2, Skyfox@4, Skyfox@5, Skyfox@5) -->
+                  <span class="method-name">changePasswordTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2, Skyfox@4, Skyfox@5, Skyfox@5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, aswini.1, aswini.1, Password must contain 8-64 charact...)">
+                  </a> <!-- passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, aswini.1, aswini.1, Password must contain 8-64 charact...) -->
+                  <span class="method-name">passwordValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 9087654321, aswini.1, aswini.1, Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.., Aswini.., Password must contain 8-64 charact...)">
+                  </a> <!-- passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.., Aswini.., Password must contain 8-64 charact...) -->
+                  <span class="method-name">passwordValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.., Aswini.., Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini11, Aswini11, Password must contain 8-64 charact...)">
+                  </a> <!-- passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini11, Aswini11, Password must contain 8-64 charact...) -->
+                  <span class="method-name">passwordValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 9087654321, Aswini11, Aswini11, Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Abc.1, Abc.1, Password must contain 8-64 characters,
+a...)">
+                  </a> <!-- passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Abc.1, Abc.1, Password must contain 8-64 characters,
+a...) -->
+                  <span class="method-name">passwordValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 9087654321, Abc.1, Abc.1, Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, A group of words containing a subject and a verb, that...)">
+                  </a> <!-- passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, A group of words containing a subject and a verb, that...) -->
+                  <span class="method-name">passwordValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 9087654321, A group of words containing a subject and a verb, that expresses a statement, a question, etc1., A group of words containing a subject and a verb, that expresses a statement, a question, etc1., Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, abcdef, abcdef, Password must contain 8-64 characters,...)">
+                  </a> <!-- passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, abcdef, abcdef, Password must contain 8-64 characters,...) -->
+                  <span class="method-name">passwordValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 9087654321, abcdef, abcdef, Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox@4)">
+                  </a> <!-- changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox@4) -->
+                  <span class="method-name">changePasswordTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox@4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scheduleMovieTest(Karthinivash, Gurleen@2, 200)">
+                  </a> <!-- scheduleMovieTest(Karthinivash, Gurleen@2, 200) -->
+                  <span class="method-name">scheduleMovieTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2, 200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox4)">
+                  </a> <!-- changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox4) -->
+                  <span class="method-name">changePasswordTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Gurleen@2, Gurleen@2)">
+                  </a> <!-- changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Gurleen@2, Gurleen@2) -->
+                  <span class="method-name">changePasswordTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2, Gurleen@2, Gurleen@2, Gurleen@2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox4, Skyfox4)">
+                  </a> <!-- changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox4, Skyfox4) -->
+                  <span class="method-name">changePasswordTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2, Gurleen@2, Skyfox4, Skyfox4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.loginpagetest.NegativeLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTest(Karthinivah, Gurleen@2, Login failed)">
+                  </a> <!-- loginPageTest(Karthinivah, Gurleen@2, Login failed) -->
+                  <span class="method-name">loginPageTest</span>
+                  <span class="parameters">(Karthinivah, Gurleen@2, Login failed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTest(Karthinivash, Gurleen@1, Login failed)">
+                  </a> <!-- loginPageTest(Karthinivash, Gurleen@1, Login failed) -->
+                  <span class="method-name">loginPageTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@1, Login failed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmPasswordAndPasswordMatchValidation(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.1, aswini.1, Password and confirm password do n...)">
+                  </a> <!-- confirmPasswordAndPasswordMatchValidation(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.1, aswini.1, Password and confirm password do n...) -->
+                  <span class="method-name">confirmPasswordAndPasswordMatchValidation</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.1, aswini.1, Password and confirm password do not match)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerSignupPageTest(aswini, aswini10, aswini@gmail.com, 9067834521, Aswini.1, Aswini.1)">
+                  </a> <!-- customerSignupPageTest(aswini, aswini10, aswini@gmail.com, 9067834521, Aswini.1, Aswini.1) -->
+                  <span class="method-name">customerSignupPageTest</span>
+                  <span class="parameters">(aswini, aswini10, aswini@gmail.com, 9067834521, Aswini.1, Aswini.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameValidityChecking(aswini, seed-user-1, aswini@gmail.com, 9087654123, Aswini.1, Aswini.1, A user with the username alre...)">
+                  </a> <!-- usernameValidityChecking(aswini, seed-user-1, aswini@gmail.com, 9087654123, Aswini.1, Aswini.1, A user with the username alre...) -->
+                  <span class="method-name">usernameValidityChecking</span>
+                  <span class="parameters">(aswini, seed-user-1, aswini@gmail.com, 9087654123, Aswini.1, Aswini.1, A user with the username already exists)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 9087654, Aswini.1, Aswini.1, Enter a valid mobile number)">
+                  </a> <!-- mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 9087654, Aswini.1, Aswini.1, Enter a valid mobile number) -->
+                  <span class="method-name">mobileNumberValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 9087654, Aswini.1, Aswini.1, Enter a valid mobile number)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 908765423456789, Aswini.1, Aswini.1, Enter a valid mobile number)">
+                  </a> <!-- mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 908765423456789, Aswini.1, Aswini.1, Enter a valid mobile number) -->
+                  <span class="method-name">mobileNumberValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmail.com, 908765423456789, Aswini.1, Aswini.1, Enter a valid mobile number)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerSignupPageTest(, , , , , , Name is required, Username is required, Email is required, Mobile number is required, Pa...)">
+                  </a> <!-- customerSignupPageTest(, , , , , , Name is required, Username is required, Email is required, Mobile number is required, Pa...) -->
+                  <span class="method-name">customerSignupPageTest</span>
+                  <span class="parameters">(, , , , , , Name is required, Username is required, Email is required, Mobile number is required, Password is required, Password is required)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailValidityChecking(aswini, aswini, aswinigmail.com, 9087654123, Aswini.1, Aswini.1, Invalid Email)">
+                  </a> <!-- emailValidityChecking(aswini, aswini, aswinigmail.com, 9087654123, Aswini.1, Aswini.1, Invalid Email) -->
+                  <span class="method-name">emailValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswinigmail.com, 9087654123, Aswini.1, Aswini.1, Invalid Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailValidityChecking(aswini, aswini, aswini@gmailcom, 9087654123, Aswini.1, Aswini.1, Invalid Email)">
+                  </a> <!-- emailValidityChecking(aswini, aswini, aswini@gmailcom, 9087654123, Aswini.1, Aswini.1, Invalid Email) -->
+                  <span class="method-name">emailValidityChecking</span>
+                  <span class="parameters">(aswini, aswini, aswini@gmailcom, 9087654123, Aswini.1, Aswini.1, Invalid Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewMoviePoster(Karthinivash, Gurleen@2)">
+                  </a> <!-- viewMoviePoster(Karthinivash, Gurleen@2) -->
+                  <span class="method-name">viewMoviePoster</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTest(Karthinivash, Gurleen@2, vmn, Invalid cost)">
+                  </a> <!-- loginPageTest(Karthinivash, Gurleen@2, vmn, Invalid cost) -->
+                  <span class="method-name">loginPageTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2, vmn, Invalid cost)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">skyfoxapp.testcases.loginpagetest.PositiveLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTest(Karthinivash, Gurleen@2)">
+                  </a> <!-- loginPageTest(Karthinivash, Gurleen@2) -->
+                  <span class="method-name">loginPageTest</span>
+                  <span class="parameters">(Karthinivash, Gurleen@2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+        </div> <!-- panel AllTests -->
+        <div panel-name="test-xml-AllTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/sr.karthinivash/Projects/SkyfoxUITesting/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AllTests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;skyfoxapp.extentreportlistners.ExtentReportListners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PositiveTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.loginpagetest.PositiveLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PositiveTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NegativeUsernameTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;expectedFailureMessage&quot; value=&quot;Login failed&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivah&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.loginpagetest.NegativeLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NegativeUsernameTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NegativePasswordTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@1&quot;/&gt;
+    &lt;parameter name=&quot;expectedFailureMessage&quot; value=&quot;Login failed&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.loginpagetest.NegativeLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NegativePasswordTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CustomerSignUpTestWithPositiveTestcases&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9067834521&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini10&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CustomerSignUpTestWithPositiveTestcases --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CustomerSignUpTestWithAllFieldRequired&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;passwordErrorMessage&quot; value=&quot;Password is required&quot;/&gt;
+    &lt;parameter name=&quot;confirmPasswordErrorMessage&quot; value=&quot;Password is required&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;usernameErrorMessage&quot; value=&quot;Username is required&quot;/&gt;
+    &lt;parameter name=&quot;nameErrorMessage&quot; value=&quot;Name is required&quot;/&gt;
+    &lt;parameter name=&quot;emailErrorMessage&quot; value=&quot;Email is required&quot;/&gt;
+    &lt;parameter name=&quot;mobileNumberErrorMessage&quot; value=&quot;Mobile number is required&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CustomerSignUpTestWithAllFieldRequired --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UsernameChecking&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654123&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;seed-user-1&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;A user with the username already exists&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UsernameChecking --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EmailCheckingwithoutAstreik&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswinigmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654123&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Invalid Email&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EmailCheckingwithoutAstreik --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EmailCheckingwithoutDot&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmailcom&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654123&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Invalid Email&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EmailCheckingwithoutDot --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MobileNumberValdatingWithLessThan10Digit&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Enter a valid mobile number&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MobileNumberValdatingWithLessThan10Digit --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MobileNumberValdatingWithMorehan10Digit&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;908765423456789&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Enter a valid mobile number&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MobileNumberValdatingWithMorehan10Digit --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;passwordWithoutUppercase&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654321&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- passwordWithoutUppercase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;passwordWithoutDigit&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Aswini..&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654321&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini..&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- passwordWithoutDigit --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;passwordWithoutSpecialCharacter&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Aswini11&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654321&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini11&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- passwordWithoutSpecialCharacter --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;passwordWithLessThan8digits&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;Abc.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654321&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Abc.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- passwordWithLessThan8digits --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;passwordWithGreaterThan64digits&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;A group of words containing a subject and a verb, that expresses a statement, a question, etc1.&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654321&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;A group of words containing a subject and a verb, that expresses a statement, a question, etc1.&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- passwordWithGreaterThan64digits --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;passwordWhichDoesNotMatchAnyCriteria&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;abcdef&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654321&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;abcdef&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- passwordWhichDoesNotMatchAnyCriteria --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;passwordDoesNotMatchConfirmPass&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;email_id&quot; value=&quot;aswini@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;confirm_pass&quot; value=&quot;aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;mobile_num&quot; value=&quot;9087654321&quot;/&gt;
+    &lt;parameter name=&quot;pass&quot; value=&quot;Aswini.1&quot;/&gt;
+    &lt;parameter name=&quot;user_name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;aswini&quot;/&gt;
+    &lt;parameter name=&quot;errorMessage&quot; value=&quot;Password and confirm password do not match&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- passwordDoesNotMatchConfirmPass --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PositiveScheduleTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;cost&quot; value=&quot;200&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PositiveScheduleTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NegativeScheduleTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;cost&quot; value=&quot;vmn&quot;/&gt;
+    &lt;parameter name=&quot;expectedFailureMessage&quot; value=&quot;Invalid cost&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NegativeScheduleTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PositiveChangePasswordTest &quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;oldPassword&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;newPassword&quot; value=&quot;Skyfox@4&quot;/&gt;
+    &lt;parameter name=&quot;confirmPassword&quot; value=&quot;Skyfox@4&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PositiveChangePasswordTest  --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ValidateNewPasswordTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;oldPassword&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;newPassword&quot; value=&quot;Skyfox4&quot;/&gt;
+    &lt;parameter name=&quot;confirmPassword&quot; value=&quot;Skyfox4&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ValidateNewPasswordTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ValidateConfirmPasswordTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;oldPassword&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;newPassword&quot; value=&quot;Skyfox@4&quot;/&gt;
+    &lt;parameter name=&quot;confirmPassword&quot; value=&quot;Skyfox4&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ValidateConfirmPasswordTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ValidatePreviousPasswordTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;oldPassword&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;newPassword&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;confirmPassword&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ValidatePreviousPasswordTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ValidateInvalidCurrentPasswordTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;oldPassword&quot; value=&quot;Skyfox@4&quot;/&gt;
+    &lt;parameter name=&quot;newPassword&quot; value=&quot;Skyfox@5&quot;/&gt;
+    &lt;parameter name=&quot;confirmPassword&quot; value=&quot;Skyfox@5&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ValidateInvalidCurrentPasswordTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PositiveViewMoviePosterTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Gurleen@2&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Karthinivash&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PositiveViewMoviePosterTests --&gt;
+&lt;/suite&gt; &lt;!-- AllTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AllTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AllTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PositiveTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NegativeUsernameTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NegativePasswordTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CustomerSignUpTestWithPositiveTestcases (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CustomerSignUpTestWithAllFieldRequired (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UsernameChecking (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EmailCheckingwithoutAstreik (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EmailCheckingwithoutDot (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MobileNumberValdatingWithLessThan10Digit (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MobileNumberValdatingWithMorehan10Digit (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">passwordWithoutUppercase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">passwordWithoutDigit (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">passwordWithoutSpecialCharacter (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">passwordWithLessThan8digits (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">passwordWithGreaterThan64digits (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">passwordWhichDoesNotMatchAnyCriteria (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">passwordDoesNotMatchConfirmPass (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PositiveScheduleTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NegativeScheduleTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PositiveChangePasswordTest  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ValidateNewPasswordTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ValidateConfirmPasswordTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ValidatePreviousPasswordTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ValidateInvalidCurrentPasswordTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PositiveViewMoviePosterTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AllTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AllTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AllTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AllTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AllTests');
+function tableData_AllTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'viewMoviePoster')
+data.setCell(0, 2, 'skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster')
+data.setCell(0, 3, 18001);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'scheduleMovieTest')
+data.setCell(1, 2, 'skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest')
+data.setCell(1, 3, 10973);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginPageTest')
+data.setCell(2, 2, 'skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest')
+data.setCell(2, 3, 9902);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'customerSignupPageTest')
+data.setCell(3, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest')
+data.setCell(3, 3, 8678);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'changePasswordTest')
+data.setCell(4, 2, 'skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest')
+data.setCell(4, 3, 8310);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'changePasswordTest')
+data.setCell(5, 2, 'skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest')
+data.setCell(5, 3, 7990);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'confirmPasswordAndPasswordMatchValidation')
+data.setCell(6, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest')
+data.setCell(6, 3, 5122);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'usernameValidityChecking')
+data.setCell(7, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest')
+data.setCell(7, 3, 4612);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'customerSignupPageTest')
+data.setCell(8, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest')
+data.setCell(8, 3, 4567);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'changePasswordTest')
+data.setCell(9, 2, 'skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest')
+data.setCell(9, 3, 3980);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'changePasswordTest')
+data.setCell(10, 2, 'skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest')
+data.setCell(10, 3, 3879);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'emailValidityChecking')
+data.setCell(11, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest')
+data.setCell(11, 3, 3626);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'mobileNumberValidityChecking')
+data.setCell(12, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest')
+data.setCell(12, 3, 3626);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'emailValidityChecking')
+data.setCell(13, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest')
+data.setCell(13, 3, 3623);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'mobileNumberValidityChecking')
+data.setCell(14, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest')
+data.setCell(14, 3, 3613);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginPageTest')
+data.setCell(15, 2, 'skyfoxapp.testcases.loginpagetest.NegativeLoginTest')
+data.setCell(15, 3, 3232);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginPageTest')
+data.setCell(16, 2, 'skyfoxapp.testcases.loginpagetest.NegativeLoginTest')
+data.setCell(16, 3, 3192);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'changePasswordTest')
+data.setCell(17, 2, 'skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest')
+data.setCell(17, 3, 2779);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'passwordValidityChecking')
+data.setCell(18, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest')
+data.setCell(18, 3, 2765);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'passwordValidityChecking')
+data.setCell(19, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest')
+data.setCell(19, 3, 2592);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'passwordValidityChecking')
+data.setCell(20, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest')
+data.setCell(20, 3, 2583);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'passwordValidityChecking')
+data.setCell(21, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest')
+data.setCell(21, 3, 2573);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'passwordValidityChecking')
+data.setCell(22, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest')
+data.setCell(22, 3, 2567);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'passwordValidityChecking')
+data.setCell(23, 2, 'skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest')
+data.setCell(23, 3, 2553);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginPageTest')
+data.setCell(24, 2, 'skyfoxapp.testcases.loginpagetest.PositiveLoginTest')
+data.setCell(24, 3, 1188);
+window.suiteTableData['AllTests']= { tableData: data, tableDiv: 'times-div-AllTests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-AllTests">
+              </div> <!-- times-div-AllTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AllTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AllTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AllTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AllTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.loginpagetest.PositiveLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTest(Karthinivash, Gurleen@2)</span>
+                <span class="method-start">3158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">4348 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.loginpagetest.NegativeLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">4482 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTest(Karthinivah, Gurleen@2, Login failed)</span>
+                <span class="method-start">7452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">10686 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">10805 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTest(Karthinivash, Gurleen@1, Login failed)</span>
+                <span class="method-start">13540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">16733 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">16864 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">customerSignupPageTest(aswini, aswini10, aswini@gmail.com, 9067834521, Aswini.1, Aswini.1)</span>
+                <span class="method-start">20306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">24874 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">24999 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">customerSignupPageTest(, , , , , , Name is required, Username is required, Email is required, Mobile number is required, Pa...)</span>
+                <span class="method-start">28525 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">37203 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">37322 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">usernameValidityChecking(aswini, seed-user-1, aswini@gmail.com, 9087654123, Aswini.1, Aswini.1, A user with the username alre...)</span>
+                <span class="method-start">44670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">49282 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">49395 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">emailValidityChecking(aswini, aswini, aswinigmail.com, 9087654123, Aswini.1, Aswini.1, Invalid Email)</span>
+                <span class="method-start">53466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">57093 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">57202 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">emailValidityChecking(aswini, aswini, aswini@gmailcom, 9087654123, Aswini.1, Aswini.1, Invalid Email)</span>
+                <span class="method-start">60952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">64575 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">64681 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 9087654, Aswini.1, Aswini.1, Enter a valid mobile number)</span>
+                <span class="method-start">68652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">72279 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">72396 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mobileNumberValidityChecking(aswini, aswini, aswini@gmail.com, 908765423456789, Aswini.1, Aswini.1, Enter a valid mobile number)</span>
+                <span class="method-start">78088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">81701 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">81809 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, aswini.1, aswini.1, Password must contain 8-64 charact...)</span>
+                <span class="method-start">85353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">87906 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">88020 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.., Aswini.., Password must contain 8-64 charact...)</span>
+                <span class="method-start">91578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">94151 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">94266 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Aswini11, Aswini11, Password must contain 8-64 charact...)</span>
+                <span class="method-start">97827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">100419 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">100532 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, Abc.1, Abc.1, Password must contain 8-64 characters,
+a...)</span>
+                <span class="method-start">103897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">106464 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">106579 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, A group of words containing a subject and a verb, that...)</span>
+                <span class="method-start">109772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">112537 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">112658 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">passwordValidityChecking(aswini, aswini, aswini@gmail.com, 9087654321, abcdef, abcdef, Password must contain 8-64 characters,...)</span>
+                <span class="method-start">117750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">120333 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">120739 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">confirmPasswordAndPasswordMatchValidation(aswini, aswini, aswini@gmail.com, 9087654321, Aswini.1, aswini.1, Password and confirm password do n...)</span>
+                <span class="method-start">125565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">130689 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">130805 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">scheduleMovieTest(Karthinivash, Gurleen@2, 200)</span>
+                <span class="method-start">133328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">144302 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">144421 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTest(Karthinivash, Gurleen@2, vmn, Invalid cost)</span>
+                <span class="method-start">147374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">157277 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">157387 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox@4)</span>
+                <span class="method-start">160153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">168144 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">168294 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox4, Skyfox4)</span>
+                <span class="method-start">170885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">179196 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">179314 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox4)</span>
+                <span class="method-start">182074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">184853 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">184959 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">changePasswordTest(Karthinivash, Gurleen@2, Gurleen@2, Gurleen@2, Gurleen@2)</span>
+                <span class="method-start">188629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">192508 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">192620 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">changePasswordTest(Karthinivash, Gurleen@2, Skyfox@4, Skyfox@5, Skyfox@5)</span>
+                <span class="method-start">195315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">199295 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">199408 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">viewMoviePoster(Karthinivash, Gurleen@2)</span>
+                <span class="method-start">201641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">219642 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
