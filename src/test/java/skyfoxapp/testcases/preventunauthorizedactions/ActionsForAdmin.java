@@ -6,7 +6,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import pages.CustomerSignupPage;
 import pages.LoginPage;
 import pages.PreventUnauthorizedActionsPage;
 
@@ -31,9 +30,9 @@ public class ActionsForAdmin extends BaseTest {
         Thread.sleep(3000);
         Thread.sleep(3000);
 
-        Assert.assertTrue(unauthorizedactionpage.UnavailbiltyOfScheduleButton());
-        Assert.assertTrue(unauthorizedactionpage.UnavailbiltyOfRevenue());
-        Assert.assertTrue(unauthorizedactionpage.UnavailbiltyOfProfileIcon());
+        Assert.assertTrue(unauthorizedactionpage.AvailbiltyOfScheduleButton());
+        Assert.assertTrue(unauthorizedactionpage.AvailbiltyOfRevenue());
+        Assert.assertTrue(unauthorizedactionpage.AvailbiltyOfProfileIcon());
     }
     @AfterClass
     public void closeBrowser() throws InterruptedException {

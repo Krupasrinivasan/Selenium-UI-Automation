@@ -4,36 +4,17 @@
   <listeners>
     <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners"/>
   </listeners>
-  <test thread-count="5" name="ValidateConfirmPasswordTest(failed)">
-    <parameter name="password" value="Gurleen@2"/>
-    <parameter name="oldPassword" value="Gurleen@2"/>
-    <parameter name="newPassword" value="Skyfox@4"/>
-    <parameter name="confirmPassword" value="Skyfox4"/>
-    <parameter name="username" value="Karthinivash"/>
+  <test thread-count="5" name="CustomerActionTest(failed)">
+    <parameter name="password" value="Skyfox@24"/>
+    <parameter name="username" value="aswini"/>
     <classes>
-      <class name="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest">
+      <class name="skyfoxapp.testcases.preventunauthorizedactions.ActionsForDifferentUsers">
         <methods>
-          <include name="changePasswordTest" invocation-numbers="0"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
+          <include name="actionsForAuser" invocation-numbers="0"/>
         </methods>
-      </class> <!-- skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest -->
+      </class> <!-- skyfoxapp.testcases.preventunauthorizedactions.ActionsForDifferentUsers -->
     </classes>
-  </test> <!-- ValidateConfirmPasswordTest(failed) -->
-  <test thread-count="5" name="ValidatePreviousPasswordTest(failed)">
-    <parameter name="password" value="Gurleen@2"/>
-    <parameter name="oldPassword" value="Gurleen@2"/>
-    <parameter name="newPassword" value="Gurleen@2"/>
-    <parameter name="confirmPassword" value="Gurleen@2"/>
-    <parameter name="username" value="Karthinivash"/>
-    <classes>
-      <class name="skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest">
-        <methods>
-          <include name="changePasswordTest" invocation-numbers="0"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-        </methods>
-      </class> <!-- skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest -->
-    </classes>
-  </test> <!-- ValidatePreviousPasswordTest(failed) -->
+  </test> <!-- CustomerActionTest(failed) -->
 </suite> <!-- Failed suite [AllTests] -->

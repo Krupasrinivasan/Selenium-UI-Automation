@@ -12,7 +12,6 @@ import pages.PreventUnauthorizedActionsPage;
 
 public class ActionsForCustomer extends BaseTest {
     LoginPage loginpage;
-    CustomerSignupPage signuppage;
     PreventUnauthorizedActionsPage unauthorizedactionpage;
 
     @BeforeClass
@@ -21,24 +20,27 @@ public class ActionsForCustomer extends BaseTest {
         loginpage = new LoginPage(driver);
         loginpage.openLoginPageUrl();
 
-        signuppage = new CustomerSignupPage(driver);
-        sleep();
-
         unauthorizedactionpage = new PreventUnauthorizedActionsPage(driver);
         sleep();
     }
-    @Parameters({"username","password"})
-    @Test
-    public void customerSignupPageTest(String user_name,String pass) throws Exception {
 
-        loginpage.sendUsernamePassword(user_name,pass);
-        sleep();
-        Assert.assertFalse(unauthorizedactionpage.UnavailbiltyOfScheduleButton());
-        Assert.assertFalse(unauthorizedactionpage.UnavailbiltyOfRevenue());
-        Assert.assertFalse(unauthorizedactionpage.UnavailbiltyOfProfileIcon());
+    @Parameters({"username", "password"})
+    @Test
+    public void actionsForCustomer(String username, String password) throws InterruptedException {
+        loginpage.sendUsernamePassword(username, password);
+        loginpage.clickLoginButton();
+        Thread.sleep(3000);
+        Thread.sleep(3000);
+        Thread.sleep(3000);
+
+        Assert.assertFalse(unauthorizedactionpage.AvailbiltyOfScheduleButton());
+        Assert.assertFalse(unauthorizedactionpage.AvailbiltyOfRevenue());
+        Assert.assertFalse(unauthorizedactionpage.AvailbiltyOfProfileIcon());
     }
+
     @AfterClass
     public void closeBrowser() throws InterruptedException {
+
         tearDown();
     }
 }

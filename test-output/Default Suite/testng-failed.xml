@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="neev-beta-01-booking-ui-automation-repo(failed)">
     <classes>
-      <class name="skyfoxapp.testcases.preventunauthorizedactions.ActionsForAdmin">
+      <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest">
         <methods>
-          <include name="actionsForAdmin"/>
+          <include name="loginPageTest"/>
           <include name="closeBrowser"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- skyfoxapp.testcases.preventunauthorizedactions.ActionsForAdmin -->
+      </class> <!-- skyfoxapp.testcases.loginpagetest.PositiveLoginTest -->
     </classes>
   </test> <!-- neev-beta-01-booking-ui-automation-repo(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

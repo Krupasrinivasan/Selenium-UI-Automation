@@ -5,287 +5,287 @@
         <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners" />
     </listeners>
 
-    <test name="PositiveTests" >
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@2" />
-        <classes>
-            <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>
-        </classes>
-    </test>
-    <test name="NegativeUsernameTest">
-        <parameter name="username" value="Karthinivah" />
-        <parameter name="password" value="Gurleen@2" />
-        <parameter name="expectedFailureMessage" value="Login failed"/>
-        <classes>
-            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
-        </classes>
-    </test>
-    <test name="NegativePasswordTest">
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@1" />
-        <parameter name="expectedFailureMessage" value="Login failed"/>
-        <classes>
-            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>
-        </classes>
-    </test>
+<!--    <test name="PositiveTests" >-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.loginpagetest.PositiveLoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="NegativeUsernameTest">-->
+<!--        <parameter name="username" value="Karthinivah" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <parameter name="expectedFailureMessage" value="Login failed"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="NegativePasswordTest">-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@1" />-->
+<!--        <parameter name="expectedFailureMessage" value="Login failed"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.loginpagetest.NegativeLoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
-    <test name="CustomerSignUpTestWithPositiveTestcases">
-    <parameter name="name" value="aswini"></parameter>
-    <parameter name="user_name" value="aswini10"></parameter>
-    <parameter name="email_id" value="aswini@gmail.com"></parameter>
-    <parameter name="mobile_num" value="9067834521"></parameter>
-    <parameter name="pass" value="Aswini.1"></parameter>
-    <parameter name="confirm_pass" value="Aswini.1"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest"></class>
-        </classes>
-    </test>
+<!--    <test name="CustomerSignUpTestWithPositiveTestcases">-->
+<!--    <parameter name="name" value="aswini"></parameter>-->
+<!--    <parameter name="user_name" value="aswini10"></parameter>-->
+<!--    <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--    <parameter name="mobile_num" value="9067834521"></parameter>-->
+<!--    <parameter name="pass" value="Aswini.1"></parameter>-->
+<!--    <parameter name="confirm_pass" value="Aswini.1"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="CustomerSignUpTestWithAllFieldRequired">
-        <parameter name="name" value=""></parameter>
-        <parameter name="user_name" value=""></parameter>
-        <parameter name="email_id" value=""></parameter>
-        <parameter name="mobile_num" value=""></parameter>
-        <parameter name="pass" value=""></parameter>
-        <parameter name="confirm_pass" value=""></parameter>
-        <parameter name="nameErrorMessage" value="Name is required"></parameter>
-        <parameter name="usernameErrorMessage" value="Username is required"></parameter>
-        <parameter name="emailErrorMessage" value="Email is required"></parameter>
-        <parameter name="mobileNumberErrorMessage" value="Mobile number is required"></parameter>
-        <parameter name="passwordErrorMessage" value="Password is required"></parameter>
-        <parameter name="confirmPasswordErrorMessage" value="Password is required"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest"></class>
-        </classes>
-    </test>
+<!--    <test name="CustomerSignUpTestWithAllFieldRequired">-->
+<!--        <parameter name="name" value=""></parameter>-->
+<!--        <parameter name="user_name" value=""></parameter>-->
+<!--        <parameter name="email_id" value=""></parameter>-->
+<!--        <parameter name="mobile_num" value=""></parameter>-->
+<!--        <parameter name="pass" value=""></parameter>-->
+<!--        <parameter name="confirm_pass" value=""></parameter>-->
+<!--        <parameter name="nameErrorMessage" value="Name is required"></parameter>-->
+<!--        <parameter name="usernameErrorMessage" value="Username is required"></parameter>-->
+<!--        <parameter name="emailErrorMessage" value="Email is required"></parameter>-->
+<!--        <parameter name="mobileNumberErrorMessage" value="Mobile number is required"></parameter>-->
+<!--        <parameter name="passwordErrorMessage" value="Password is required"></parameter>-->
+<!--        <parameter name="confirmPasswordErrorMessage" value="Password is required"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="UsernameChecking">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="seed-user-1"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654123"></parameter>
-        <parameter name="pass" value="Aswini.1"></parameter>
-        <parameter name="confirm_pass" value="Aswini.1"></parameter>
-        <parameter name="errorMessage" value="A user with the username already exists"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest"></class>
-        </classes>
-    </test>
+<!--    <test name="UsernameChecking">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="seed-user-1"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654123"></parameter>-->
+<!--        <parameter name="pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="confirm_pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="errorMessage" value="A user with the username already exists"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="EmailCheckingwithoutAstreik">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswinigmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654123"></parameter>
-        <parameter name="pass" value="Aswini.1"></parameter>
-        <parameter name="confirm_pass" value="Aswini.1"></parameter>
-        <parameter name="errorMessage" value="Invalid Email"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest"></class>
-        </classes>
-    </test>
-    <test name="EmailCheckingwithoutDot">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmailcom"></parameter>
-        <parameter name="mobile_num" value="9087654123"></parameter>
-        <parameter name="pass" value="Aswini.1"></parameter>
-        <parameter name="confirm_pass" value="Aswini.1"></parameter>
-        <parameter name="errorMessage" value="Invalid Email"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest"></class>
-        </classes>
-    </test>
-    <test name="MobileNumberValdatingWithLessThan10Digit">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654"></parameter>
-        <parameter name="pass" value="Aswini.1"></parameter>
-        <parameter name="confirm_pass" value="Aswini.1"></parameter>
-        <parameter name="errorMessage" value="Enter a valid mobile number"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest"></class>
-        </classes>
-    </test>
-    <test name="MobileNumberValdatingWithMorehan10Digit">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="908765423456789"></parameter>
-        <parameter name="pass" value="Aswini.1"></parameter>
-        <parameter name="confirm_pass" value="Aswini.1"></parameter>
-        <parameter name="errorMessage" value="Enter a valid mobile number"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest"></class>
-        </classes>
-    </test>
-    <test name="passwordWithoutUppercase">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654321"></parameter>
-        <parameter name="pass" value="aswini.1"></parameter>
-        <parameter name="confirm_pass" value="aswini.1"></parameter>
-        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>
-        </classes>
-    </test>
-    <test name="passwordWithoutDigit">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654321"></parameter>
-        <parameter name="pass" value="Aswini.."></parameter>
-        <parameter name="confirm_pass" value="Aswini.."></parameter>
-        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>
-        </classes>
-    </test>
-    <test name="passwordWithoutSpecialCharacter">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654321"></parameter>
-        <parameter name="pass" value="Aswini11"></parameter>
-        <parameter name="confirm_pass" value="Aswini11"></parameter>
-        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>
-        </classes>
-    </test>
-    <test name="passwordWithLessThan8digits">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654321"></parameter>
-        <parameter name="pass" value="Abc.1"></parameter>
-        <parameter name="confirm_pass" value="Abc.1"></parameter>
-        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>
-        </classes>
-    </test>
-    <test name="passwordWithGreaterThan64digits">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654321"></parameter>
-        <parameter name="pass" value="A group of words containing a subject and a verb, that expresses a statement, a question, etc1."></parameter>
-        <parameter name="confirm_pass" value="A group of words containing a subject and a verb, that expresses a statement, a question, etc1."></parameter>
-        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>
-        </classes>
-    </test>
-    <test name="passwordWhichDoesNotMatchAnyCriteria">
-        <parameter name="name" value="aswini"></parameter>
-        <parameter name="user_name" value="aswini"></parameter>
-        <parameter name="email_id" value="aswini@gmail.com"></parameter>
-        <parameter name="mobile_num" value="9087654321"></parameter>
-        <parameter name="pass" value="abcdef"></parameter>
-        <parameter name="confirm_pass" value="abcdef"></parameter>
-        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>
-        <classes>
-            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>
-        </classes>
-    </test>
-    <test name="passwordDoesNotMatchConfirmPass">
-            <parameter name="name" value="aswini"></parameter>
-            <parameter name="user_name" value="aswini"></parameter>
-            <parameter name="email_id" value="aswini@gmail.com"></parameter>
-            <parameter name="mobile_num" value="9087654321"></parameter>
-            <parameter name="pass" value="Aswini.1"></parameter>
-            <parameter name="confirm_pass" value="aswini.1"></parameter>
-            <parameter name="errorMessage" value="Password and confirm password do not match"></parameter>
-            <classes>
-                <class name="skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest"></class>
-            </classes>
-        </test>
+<!--    <test name="EmailCheckingwithoutAstreik">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswinigmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654123"></parameter>-->
+<!--        <parameter name="pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="confirm_pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="errorMessage" value="Invalid Email"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="EmailCheckingwithoutDot">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmailcom"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654123"></parameter>-->
+<!--        <parameter name="pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="confirm_pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="errorMessage" value="Invalid Email"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="MobileNumberValdatingWithLessThan10Digit">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654"></parameter>-->
+<!--        <parameter name="pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="confirm_pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="errorMessage" value="Enter a valid mobile number"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="MobileNumberValdatingWithMorehan10Digit">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="908765423456789"></parameter>-->
+<!--        <parameter name="pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="confirm_pass" value="Aswini.1"></parameter>-->
+<!--        <parameter name="errorMessage" value="Enter a valid mobile number"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="passwordWithoutUppercase">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654321"></parameter>-->
+<!--        <parameter name="pass" value="aswini.1"></parameter>-->
+<!--        <parameter name="confirm_pass" value="aswini.1"></parameter>-->
+<!--        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="passwordWithoutDigit">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654321"></parameter>-->
+<!--        <parameter name="pass" value="Aswini.."></parameter>-->
+<!--        <parameter name="confirm_pass" value="Aswini.."></parameter>-->
+<!--        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="passwordWithoutSpecialCharacter">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654321"></parameter>-->
+<!--        <parameter name="pass" value="Aswini11"></parameter>-->
+<!--        <parameter name="confirm_pass" value="Aswini11"></parameter>-->
+<!--        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="passwordWithLessThan8digits">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654321"></parameter>-->
+<!--        <parameter name="pass" value="Abc.1"></parameter>-->
+<!--        <parameter name="confirm_pass" value="Abc.1"></parameter>-->
+<!--        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="passwordWithGreaterThan64digits">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654321"></parameter>-->
+<!--        <parameter name="pass" value="A group of words containing a subject and a verb, that expresses a statement, a question, etc1."></parameter>-->
+<!--        <parameter name="confirm_pass" value="A group of words containing a subject and a verb, that expresses a statement, a question, etc1."></parameter>-->
+<!--        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="passwordWhichDoesNotMatchAnyCriteria">-->
+<!--        <parameter name="name" value="aswini"></parameter>-->
+<!--        <parameter name="user_name" value="aswini"></parameter>-->
+<!--        <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--        <parameter name="mobile_num" value="9087654321"></parameter>-->
+<!--        <parameter name="pass" value="abcdef"></parameter>-->
+<!--        <parameter name="confirm_pass" value="abcdef"></parameter>-->
+<!--        <parameter name="errorMessage" value="Password must contain 8-64 characters,&#xA;at least one uppercase character,&#xA;one number and one special character"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="passwordDoesNotMatchConfirmPass">-->
+<!--            <parameter name="name" value="aswini"></parameter>-->
+<!--            <parameter name="user_name" value="aswini"></parameter>-->
+<!--            <parameter name="email_id" value="aswini@gmail.com"></parameter>-->
+<!--            <parameter name="mobile_num" value="9087654321"></parameter>-->
+<!--            <parameter name="pass" value="Aswini.1"></parameter>-->
+<!--            <parameter name="confirm_pass" value="aswini.1"></parameter>-->
+<!--            <parameter name="errorMessage" value="Password and confirm password do not match"></parameter>-->
+<!--            <classes>-->
+<!--                <class name="skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest"></class>-->
+<!--            </classes>-->
+<!--        </test>-->
 
-    <test name="PositiveScheduleTests" >
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@2" />
-        <parameter name="cost" value="200" />
-        <classes>
-            <class name="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest"/>
-        </classes>
-    </test>
+<!--    <test name="PositiveScheduleTests" >-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <parameter name="cost" value="200" />-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="NegativeScheduleTests" >
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@2" />
-        <parameter name="cost" value="vmn" />
-        <parameter name="expectedFailureMessage" value="Invalid cost"/>
-        <classes>
-            <class name="skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest"/>
-        </classes>
-    </test>
-
-
-    <test name = "PositiveChangePasswordTest ">
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@2" />
-        <parameter name="oldPassword" value="Gurleen@2"/>
-        <parameter name="newPassword" value="Skyfox@4"/>
-        <parameter name="confirmPassword" value="Skyfox@4"/>
-        <classes>
-            <class name="skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest"/>
-        </classes>
-    </test>
-    <test name = "ValidateNewPasswordTest">
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@2" />
-        <parameter name="oldPassword" value="Gurleen@2"/>
-        <parameter name="newPassword" value="Skyfox4"/>
-        <parameter name="confirmPassword" value="Skyfox4"/>
-        <classes>
-            <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>
-        </classes>
-    </test>
-    <test name = "ValidateConfirmPasswordTest">
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@2" />
-        <parameter name="oldPassword" value="Gurleen@2"/>
-        <parameter name="newPassword" value="Skyfox@4"/>
-        <parameter name="confirmPassword" value="Skyfox4"/>
-        <classes>
-            <class name="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest"/>
-        </classes>
-    </test>
-    <test name = "ValidatePreviousPasswordTest">
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@2" />
-        <parameter name="oldPassword" value="Gurleen@2"/>
-        <parameter name="newPassword" value="Gurleen@2"/>
-        <parameter name="confirmPassword" value="Gurleen@2"/>
-        <classes>
-            <class name="skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest"/>
-        </classes>
-    </test>
-    <test name = "ValidateInvalidCurrentPasswordTest">
-        <parameter name="username" value="Karthinivash" />
-        <parameter name="password" value="Gurleen@2" />
-        <parameter name="oldPassword" value="Skyfox@4"/>
-        <parameter name="newPassword" value="Skyfox@5"/>
-        <parameter name="confirmPassword" value="Skyfox@5"/>
-        <classes>
-            <class name="skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest"/>
-        </classes>
-    </test>
+<!--    <test name="NegativeScheduleTests" >-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <parameter name="cost" value="vmn" />-->
+<!--        <parameter name="expectedFailureMessage" value="Invalid cost"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
+<!--    <test name = "PositiveChangePasswordTest ">-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <parameter name="oldPassword" value="Gurleen@2"/>-->
+<!--        <parameter name="newPassword" value="Skyfox@4"/>-->
+<!--        <parameter name="confirmPassword" value="Skyfox@4"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name = "ValidateNewPasswordTest">-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <parameter name="oldPassword" value="Gurleen@2"/>-->
+<!--        <parameter name="newPassword" value="Skyfox4"/>-->
+<!--        <parameter name="confirmPassword" value="Skyfox4"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name = "ValidateConfirmPasswordTest">-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <parameter name="oldPassword" value="Gurleen@2"/>-->
+<!--        <parameter name="newPassword" value="Skyfox@4"/>-->
+<!--        <parameter name="confirmPassword" value="Skyfox4"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name = "ValidatePreviousPasswordTest">-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <parameter name="oldPassword" value="Gurleen@2"/>-->
+<!--        <parameter name="newPassword" value="Gurleen@2"/>-->
+<!--        <parameter name="confirmPassword" value="Gurleen@2"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name = "ValidateInvalidCurrentPasswordTest">-->
+<!--        <parameter name="username" value="Karthinivash" />-->
+<!--        <parameter name="password" value="Gurleen@2" />-->
+<!--        <parameter name="oldPassword" value="Skyfox@4"/>-->
+<!--        <parameter name="newPassword" value="Skyfox@5"/>-->
+<!--        <parameter name="confirmPassword" value="Skyfox@5"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="PositiveViewMoviePosterTests">
-        <parameter name="username" value="Karthinivash"/>
-        <parameter name="password" value="Gurleen@2"/>
-        <classes>
-            <class name="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster"/>
-        </classes>
-    </test>
+
+
+<!--    <test name="PositiveViewMoviePosterTests">-->
+<!--        <parameter name="username" value="Karthinivash"/>-->
+<!--        <parameter name="password" value="Gurleen@2"/>-->
+<!--        <classes>-->
+<!--            <class name="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="AdminActionTest">
         <parameter name="username" value="Karthinivash"/>
@@ -295,8 +295,8 @@
         </classes>
     </test>
     <test name="CustomerActionTest">
-        <parameter name="username" value="aswini@11"/>
-        <parameter name="password" value="Aswini.1"/>
+        <parameter name="username" value="aswini"/>
+        <parameter name="password" value="Skyfox@24"/>
         <classes>
             <class name="skyfoxapp.testcases.preventunauthorizedactions.ActionsForCustomer"/>
         </classes>
