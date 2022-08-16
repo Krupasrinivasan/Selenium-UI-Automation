@@ -8,8 +8,9 @@ public class BaseTest {
 
     public WebDriver driver;
 
-    public void setUp() {
+    public void setUp() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");
+        Thread.sleep(1000);
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
