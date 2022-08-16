@@ -1,8 +1,5 @@
 fileignoreconfig:
 - filename: testng.xml
-<<<<<<< Updated upstream
   checksum: 6ae9aaaec98994dd97d4050e17deda34a83416506272d34f0b0b1cf7365d4577
-=======
   checksum: 6d8487f900f26d51378021dbf3957daa2a8729220fdc2a612ea34ab138144bb8
->>>>>>> Stashed changes
 version: ""
