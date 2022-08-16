@@ -31,9 +31,9 @@ public class ActionsForAdmin extends BaseTest {
         Thread.sleep(3000);
         Thread.sleep(3000);
 
-        Assert.assertTrue(unauthorizedactionpage.availabiltyOfschedulebutton());
-        Assert.assertTrue(unauthorizedactionpage.availabiltyOfsRevenue());
-        Assert.assertTrue(unauthorizedactionpage.availabiltyOfProfileIcon());
+        Assert.assertTrue(unauthorizedactionpage.UnavailbiltyOfScheduleButton());
+        Assert.assertTrue(unauthorizedactionpage.UnavailbiltyOfRevenue());
+        Assert.assertTrue(unauthorizedactionpage.UnavailbiltyOfProfileIcon());
     }
     @AfterClass
     public void closeBrowser() throws InterruptedException {

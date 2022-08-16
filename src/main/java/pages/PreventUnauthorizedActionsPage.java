@@ -41,13 +41,5 @@ public class PreventUnauthorizedActionsPage {
         else
             return false;
     }
-    public boolean availabiltyOfschedulebutton(){
-        return schedulebutton.isDisplayed();
-    }
-    public boolean availabiltyOfsRevenue(){
-        return revenue.isDisplayed();
-    }
-    public boolean availabiltyOfProfileIcon(){
-        return profileIcon.isDisplayed();
-    }
+
 }
