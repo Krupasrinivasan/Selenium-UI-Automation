@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.security.Policy;
 import java.util.List;
 
 public class AddMovieSchedulePage {
@@ -61,6 +63,9 @@ public class AddMovieSchedulePage {
 
     @FindBy(xpath = "//*[@id=\"formBody\"]/div[2]/div/p")
     WebElement errorMessage;
+
+    @FindBy(xpath = "/html/body/div[2]/div[3]")
+    WebElement scheduleFormPopUp;
     public AddMovieSchedulePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -90,9 +95,13 @@ public class AddMovieSchedulePage {
         return failureMessage.getText();
     }
 
-    public void clickScheduleButton() {
+    public boolean clickScheduleButton() {
 
-        scheduleButton.click();
+        if(scheduleButton.isEnabled()) {
+            scheduleButton.click();
+            return true;
+        }
+        return false;
     }
 
     public void selectSlot(){
@@ -123,6 +132,13 @@ public class AddMovieSchedulePage {
         costTextField.sendKeys(cost);
     }
 
+    public boolean displayScheduleFormopUp(){
+        if(scheduleFormPopUp.isDisplayed())
+        {
+            return true;
+        }
+        return false;
+    }
     public void selectMovieFromDropdown() throws InterruptedException {
 
         Actions actions = new Actions(driver);

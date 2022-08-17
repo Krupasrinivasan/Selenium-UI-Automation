@@ -225,6 +225,30 @@
         </classes>
     </test>
 
+    <test name="PreviousDayNoSlotsAvailableScheduleTest" >
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <classes>
+            <class name="skyfoxapp.testcases.addMovieScheduleTest.PreviousDayNoAvailableSlotsScheduleTest"/>
+        </classes>
+    </test>
+
+    <test name="PreviousDaySlotsAvailableScheduleTest" >
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <classes>
+            <class name="skyfoxapp.testcases.addMovieScheduleTest.PreviousDayAvailableSlotsScheduleTest"/>
+        </classes>
+    </test>
+
+    <test name="NoSlotsAvailableScheduleTest" >
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <classes>
+            <class name="skyfoxapp.testcases.addMovieScheduleTest.NoAvailableSlotsScheduleTest"/>
+        </classes>
+    </test>
+
 
     <test name = "PositiveChangePasswordTest ">
         <parameter name="username" value="Karthinivash" />
@@ -236,12 +260,67 @@
             <class name="skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest"/>
         </classes>
     </test>
-    <test name = "ValidateNewPasswordTest">
+    <test name = "ValidateNewPasswordTest1">
         <parameter name="username" value="Karthinivash" />
         <parameter name="password" value="Gurleen@2" />
         <parameter name="oldPassword" value="Gurleen@2"/>
-        <parameter name="newPassword" value="Skyfox4"/>
-        <parameter name="confirmPassword" value="Skyfox4"/>
+        <parameter name="newPassword" value="Skyfox433"/>
+        <parameter name="confirmPassword" value="Skyfox433"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateNewPasswordTest2">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="skyfox@433"/>
+        <parameter name="confirmPassword" value="skyfox@433"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateNewPasswordTest3">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="SKYFOX433"/>
+        <parameter name="confirmPassword" value="SKYFOX433"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateNewPasswordTest4">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="Skyfox@"/>
+        <parameter name="confirmPassword" value="Skyfox@"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateNewPasswordTest5">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="Sky@3"/>
+        <parameter name="confirmPassword" value="Sky@3"/>
+        <classes>
+            <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateNewPasswordTest6">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="oldPassword" value="Gurleen@2"/>
+        <parameter name="newPassword" value="Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@"/>
+        <parameter name="confirmPassword" value="Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@"/>
         <classes>
             <class name="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest"/>
         </classes>
@@ -287,6 +366,7 @@
         </classes>
     </test>
 
+<<<<<<< Updated upstream
     <test name="AdminActionTest">
         <parameter name="username" value="Karthinivash"/>
         <parameter name="password" value="Gurleen@2"/>
@@ -302,4 +382,83 @@
         </classes>
     </test>
 
+=======
+    <test name = "ValidatePastDayMovieTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <classes>
+            <class name="skyfoxapp.testcases.customerBookingTest.ValidatePastDayMoviesTest"/>
+        </classes>
+    </test>
+
+    <test name = "PositiveCustomerBookingTest">
+        <parameter name="username" value="seed-user-3" />
+        <parameter name="password" value="Gurleen@1" />
+        <parameter name="seats" value="" />
+        <classes>
+            <class name="skyfoxapp.testcases.customerBookingTest.PositiveCustomerBookingTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidatePastShowsTest">
+        <parameter name="username" value="seed-user-3" />
+        <parameter name="password" value="Gurleen@1" />
+        <classes>
+            <class name="skyfoxapp.testcases.customerBookingTest.ValidatePastShowsTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateNumberOfSeatsTest">
+        <parameter name="username" value="seed-user-3" />
+        <parameter name="password" value="Gurleen@1" />
+        <parameter name="seats" value="100" />
+        <classes>
+            <class name="skyfoxapp.testcases.customerBookingTest.ValidateNumberOfSeatsTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateAvailableSeatsTest">
+        <parameter name="username" value="seed-user-3" />
+        <parameter name="password" value="Gurleen@1" />
+        <parameter name="seats" value="5" />
+        <classes>
+            <class name="skyfoxapp.testcases.customerBookingTest.ValidateAvailableSeatsTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateAdminBookingCustomerDetailsTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="seats" value="" />
+        <parameter name="name" value="Krupa" />
+        <parameter name="number" value="6123457890" />
+        <parameter name="email" value="krupa@gmail.com" />
+        <classes>
+            <class name="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingCustomerDetailsTest"/>
+        </classes>
+    </test>
+
+    <test name = "ValidateAdminBookingCustomerDetailsTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="seats" value="" />
+        <parameter name="number" value="6123457890" />
+        <parameter name="email" value="krupa@gmail.com" />
+        <classes>
+            <class name="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingNameFeildTest"/>
+        </classes>
+    </test>
+
+        <test name = "ValidateAdminBookingCustomerDetailsTest">
+            <parameter name="username" value="Karthinivash" />
+            <parameter name="password" value="Gurleen@2" />
+            <parameter name="seats" value="" />
+            <parameter name="name" value="Krupa" />
+            <parameter name="number" value="6123457890" />
+            <parameter name="email" value="krupa" />
+            <classes>
+                <class name="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingEmailTest"/>
+            </classes>
+        </test>
+>>>>>>> Stashed changes
 </suite>

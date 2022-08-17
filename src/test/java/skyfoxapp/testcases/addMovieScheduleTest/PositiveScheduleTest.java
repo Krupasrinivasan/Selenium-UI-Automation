@@ -27,11 +27,16 @@ public class PositiveScheduleTest extends BaseTest {
         String actualUrl = AddMovieSchedulePage.validateLoginUrl();
         Assert.assertNotEquals(actualUrl, AddMovieSchedulePage.url, "Login failed");
 
+
         driver.navigate().to("http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/shows?date=2022-10-06");
+
 
         System.out.println("new page");
         Thread.sleep(3000);
-        AddMovieSchedulePage.clickScheduleButton();
+        boolean result = AddMovieSchedulePage.clickScheduleButton();
+        Assert.assertTrue(result, "Schedule button is not clickable");
+        boolean display = AddMovieSchedulePage.displayScheduleFormopUp();
+        Assert.assertTrue(display,"Schedule form is not displayed");
         System.out.println("Clicked Schedule Button");
         sleep();
         AddMovieSchedulePage.selectSlot();
