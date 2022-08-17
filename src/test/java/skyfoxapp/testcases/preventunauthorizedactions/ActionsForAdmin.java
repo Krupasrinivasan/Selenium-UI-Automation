@@ -33,6 +33,7 @@ public class ActionsForAdmin extends BaseTest {
         Assert.assertTrue(unauthorizedactionpage.AvailbiltyOfScheduleButton());
         Assert.assertTrue(unauthorizedactionpage.AvailbiltyOfRevenue());
         Assert.assertTrue(unauthorizedactionpage.AvailbiltyOfProfileIcon());
+        Assert.assertTrue(unauthorizedactionpage.availbilityOfShows());
     }
     @AfterClass
     public void closeBrowser() throws InterruptedException {

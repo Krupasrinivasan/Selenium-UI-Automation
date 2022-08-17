@@ -25,20 +25,619 @@ td,th {border:1px solid #009;padding:.25em .5em}
 <body>
 <table cellspacing="0" cellpadding="0" class="testOverview">
 <tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1">AdminActionTest</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">23.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t2">CustomerActionTest</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">PositiveTests</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">14.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t2">NegativeUsernameTest</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">15.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t3">NegativePasswordTest</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">12.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t4">CustomerSignUpTestWithPositiveTestcases</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">22.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t5">CustomerSignUpTestWithAllFieldRequired</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t6">UsernameChecking</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t7">EmailCheckingwithoutAstreik</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">19.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t8">EmailCheckingwithoutDot</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">30.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t9">MobileNumberValdatingWithLessThan10Digit</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">18.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t10">MobileNumberValdatingWithMorehan10Digit</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">18.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t11">passwordWithoutUppercase</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t12">passwordWithoutDigit</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">26.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t13">passwordWithoutSpecialCharacter</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">17.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t14">passwordWithLessThan8digits</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">20.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t15">passwordWithGreaterThan64digits</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t16">passwordWhichDoesNotMatchAnyCriteria</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">18.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t17">passwordDoesNotMatchConfirmPass</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">22.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t18">PositiveScheduleTests</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">24.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t19">NegativeScheduleTests</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">21.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t20">PositiveChangePasswordTest </a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">12.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t21">ValidateNewPasswordTest</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">11.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t22">ValidateConfirmPasswordTest</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">11.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t23">ValidatePreviousPasswordTest</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">17.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t24">ValidateInvalidCurrentPasswordTest</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">17.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t25">PositiveViewMoviePosterTests</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">17.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t26">AdminActionTest</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">22.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t27">CustomerActionTest</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">20.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="total"><td>Total</td>
-<td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">45.3 seconds</td><td colspan="2">&nbsp;</td></tr>
+<td class="numi">20</td><td class="numi">20</td><td class="numi">0</td><td class="numi_attn">7</td><td class="numi">516.5 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr id="t1"><th colspan="5">AdminActionTest &#8212; passed</th></tr>
-<tr class="passedodd"><td>skyfoxapp.testcases.preventunauthorizedactions.ActionsForAdmin</td><td><a href="#m1"><b>actionsForAdmin</b>  </a></td><td class="numi">1</td><td>1660669675028</td><td class="numi">12519</td></tr>
-<tr id="t2"><th colspan="5">CustomerActionTest &#8212; passed</th></tr>
-<tr class="passedodd"><td>skyfoxapp.testcases.preventunauthorizedactions.ActionsForCustomer</td><td><a href="#m2"><b>actionsForCustomer</b>  </a></td><td class="numi">1</td><td>1660669695946</td><td class="numi">13154</td></tr>
+<tr id="t1"><th colspan="5">PositiveTests &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.loginpagetest.PositiveLoginTest</td><td><a href="#m1"><b>loginPageTest</b>  </a></td><td class="numi">1</td><td>1660670221441</td><td class="numi">5696</td></tr>
+<tr id="t2"><th colspan="5">NegativeUsernameTest &#8212; failed</th></tr>
+<tr class="failedodd"><td>skyfoxapp.testcases.loginpagetest.NegativeLoginTest</td><td><a href="#m2"><b>loginPageTest</b>  </a></td><td class="numi">1</td><td>1660670236531</td><td class="numi">5543</td></tr>
+<tr id="t3"><th colspan="5">NegativePasswordTest &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.loginpagetest.NegativeLoginTest</td><td><a href="#m3"><b>loginPageTest</b>  </a></td><td class="numi">1</td><td>1660670247400</td><td class="numi">6684</td></tr>
+<tr id="t4"><th colspan="5">CustomerSignUpTestWithPositiveTestcases &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest</td><td><a href="#m4"><b>customerSignupPageTest</b>  </a></td><td class="numi">1</td><td>1660670261021</td><td class="numi">15749</td></tr>
+<tr id="t5"><th colspan="5">CustomerSignUpTestWithAllFieldRequired &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest</td><td><a href="#m5"><b>customerSignupPageTest</b>  </a></td><td class="numi">1</td><td>1660670284432</td><td class="numi">13663</td></tr>
+<tr id="t6"><th colspan="5">UsernameChecking &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest</td><td><a href="#m6"><b>usernameValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670307634</td><td class="numi">11474</td></tr>
+<tr id="t7"><th colspan="5">EmailCheckingwithoutAstreik &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest</td><td><a href="#m7"><b>emailValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670328881</td><td class="numi">9492</td></tr>
+<tr id="t8"><th colspan="5">EmailCheckingwithoutDot &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest</td><td><a href="#m8"><b>emailValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670358783</td><td class="numi">10495</td></tr>
+<tr id="t9"><th colspan="5">MobileNumberValdatingWithLessThan10Digit &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest</td><td><a href="#m9"><b>mobileNumberValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670378139</td><td class="numi">9567</td></tr>
+<tr id="t10"><th colspan="5">MobileNumberValdatingWithMorehan10Digit &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest</td><td><a href="#m10"><b>mobileNumberValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670396075</td><td class="numi">9851</td></tr>
+<tr id="t11"><th colspan="5">passwordWithoutUppercase &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest</td><td><a href="#m11"><b>passwordValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670416848</td><td class="numi">10901</td></tr>
+<tr id="t12"><th colspan="5">passwordWithoutDigit &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest</td><td><a href="#m12"><b>passwordValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670445450</td><td class="numi">9155</td></tr>
+<tr id="t13"><th colspan="5">passwordWithoutSpecialCharacter &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest</td><td><a href="#m13"><b>passwordValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670462185</td><td class="numi">10365</td></tr>
+<tr id="t14"><th colspan="5">passwordWithLessThan8digits &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest</td><td><a href="#m14"><b>passwordValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670482825</td><td class="numi">9991</td></tr>
+<tr id="t15"><th colspan="5">passwordWithGreaterThan64digits &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest</td><td><a href="#m15"><b>passwordValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670501709</td><td class="numi">12685</td></tr>
+<tr id="t16"><th colspan="5">passwordWhichDoesNotMatchAnyCriteria &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest</td><td><a href="#m16"><b>passwordValidityChecking</b>  </a></td><td class="numi">1</td><td>1660670522501</td><td class="numi">9845</td></tr>
+<tr id="t17"><th colspan="5">passwordDoesNotMatchConfirmPass &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest</td><td><a href="#m17"><b>confirmPasswordAndPasswordMatchValidation</b>  </a></td><td class="numi">1</td><td>1660670542886</td><td class="numi">11733</td></tr>
+<tr id="t18"><th colspan="5">PositiveScheduleTests &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest</td><td><a href="#m18"><b>scheduleMovieTest</b>  </a></td><td class="numi">1</td><td>1660670560475</td><td class="numi">18249</td></tr>
+<tr id="t19"><th colspan="5">NegativeScheduleTests &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest</td><td><a href="#m19"><b>loginPageTest</b>  </a></td><td class="numi">1</td><td>1660670584919</td><td class="numi">15200</td></tr>
+<tr id="t20"><th colspan="5">PositiveChangePasswordTest  &#8212; failed</th></tr>
+<tr class="failedodd"><td>skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest</td><td><a href="#m20"><b>changePasswordTest</b>  </a></td><td class="numi">1</td><td>1660670607989</td><td class="numi">4146</td></tr>
+<tr id="t21"><th colspan="5">ValidateNewPasswordTest &#8212; failed</th></tr>
+<tr class="failedodd"><td>skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest</td><td><a href="#m21"><b>changePasswordTest</b>  </a></td><td class="numi">1</td><td>1660670617849</td><td class="numi">5369</td></tr>
+<tr id="t22"><th colspan="5">ValidateConfirmPasswordTest &#8212; failed</th></tr>
+<tr class="failedodd"><td>skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest</td><td><a href="#m22"><b>changePasswordTest</b>  </a></td><td class="numi">1</td><td>1660670630041</td><td class="numi">4699</td></tr>
+<tr id="t23"><th colspan="5">ValidatePreviousPasswordTest &#8212; failed</th></tr>
+<tr class="failedodd"><td>skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest</td><td><a href="#m23"><b>changePasswordTest</b>  </a></td><td class="numi">1</td><td>1660670643609</td><td class="numi">8253</td></tr>
+<tr id="t24"><th colspan="5">ValidateInvalidCurrentPasswordTest &#8212; failed</th></tr>
+<tr class="failedodd"><td>skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest</td><td><a href="#m24"><b>changePasswordTest</b>  </a></td><td class="numi">1</td><td>1660670661368</td><td class="numi">7556</td></tr>
+<tr id="t25"><th colspan="5">PositiveViewMoviePosterTests &#8212; failed</th></tr>
+<tr class="failedodd"><td>skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster</td><td><a href="#m25"><b>viewMoviePoster</b>  </a></td><td class="numi">1</td><td>1660670681022</td><td class="numi">5439</td></tr>
+<tr id="t26"><th colspan="5">AdminActionTest &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.preventunauthorizedactions.ActionsForAdmin</td><td><a href="#m26"><b>actionsForAdmin</b>  </a></td><td class="numi">1</td><td>1660670695554</td><td class="numi">13564</td></tr>
+<tr id="t27"><th colspan="5">CustomerActionTest &#8212; passed</th></tr>
+<tr class="passedodd"><td>skyfoxapp.testcases.preventunauthorizedactions.ActionsForCustomer</td><td><a href="#m27"><b>actionsForCustomer</b>  </a></td><td class="numi">1</td><td>1660670716246</td><td class="numi">13224</td></tr>
 </table>
+<h1>PositiveTests</h1>
+<h2 id="m1">skyfoxapp.testcases.loginpagetest.PositiveLoginTest:loginPageTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>NegativeUsernameTest</h1>
+<h2 id="m2">skyfoxapp.testcases.loginpagetest.NegativeLoginTest:loginPageTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Karthinivah</td>
+<td>Gurleen@2</td>
+<td>Login failed</td>
+</tr>
+<tr><td colspan="3">
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div/div/div[2]/div/form/p&quot;}
+  (Session info: chrome=104.0.5112.79)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;Aswinis-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1430:48f0:96ba:5647%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb63d6f3210788adfe2d6d78c7afab63, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div/div/div[2]/div/form/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.79, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/nw/pjzqj7c11rs...}, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 104.0.5112.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb63d6f3210788adfe2d6d78c7afab63
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at pages.LoginPage.getActualMessageAfterInvalidLoginCredentials(LoginPage.java:62)
+	at skyfoxapp.testcases.loginpagetest.NegativeLoginTest.loginPageTest(NegativeLoginTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 25 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>NegativePasswordTest</h1>
+<h2 id="m3">skyfoxapp.testcases.loginpagetest.NegativeLoginTest:loginPageTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@1</td>
+<td>Login failed</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>CustomerSignUpTestWithPositiveTestcases</h1>
+<h2 id="m4">skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest:customerSignupPageTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini10</td>
+<td>aswini@gmail.com</td>
+<td>9067834521</td>
+<td>Aswini.1</td>
+<td>Aswini.1</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>CustomerSignUpTestWithAllFieldRequired</h1>
+<h2 id="m5">skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest:customerSignupPageTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr>
+<tr class="param stripe"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Name is required</td>
+<td>Username is required</td>
+<td>Email is required</td>
+<td>Mobile number is required</td>
+<td>Password is required</td>
+<td>Password is required</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>UsernameChecking</h1>
+<h2 id="m6">skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest:usernameValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>seed-user-1</td>
+<td>aswini@gmail.com</td>
+<td>9087654123</td>
+<td>Aswini.1</td>
+<td>Aswini.1</td>
+<td>A user with the username already exists</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>EmailCheckingwithoutAstreik</h1>
+<h2 id="m7">skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest:emailValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswinigmail.com</td>
+<td>9087654123</td>
+<td>Aswini.1</td>
+<td>Aswini.1</td>
+<td>Invalid Email</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>EmailCheckingwithoutDot</h1>
+<h2 id="m8">skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest:emailValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmailcom</td>
+<td>9087654123</td>
+<td>Aswini.1</td>
+<td>Aswini.1</td>
+<td>Invalid Email</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>MobileNumberValdatingWithLessThan10Digit</h1>
+<h2 id="m9">skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest:mobileNumberValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>9087654</td>
+<td>Aswini.1</td>
+<td>Aswini.1</td>
+<td>Enter a valid mobile number</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>MobileNumberValdatingWithMorehan10Digit</h1>
+<h2 id="m10">skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest:mobileNumberValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>908765423456789</td>
+<td>Aswini.1</td>
+<td>Aswini.1</td>
+<td>Enter a valid mobile number</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>passwordWithoutUppercase</h1>
+<h2 id="m11">skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest:passwordValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>9087654321</td>
+<td>aswini.1</td>
+<td>aswini.1</td>
+<td>Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>passwordWithoutDigit</h1>
+<h2 id="m12">skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest:passwordValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>9087654321</td>
+<td>Aswini..</td>
+<td>Aswini..</td>
+<td>Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>passwordWithoutSpecialCharacter</h1>
+<h2 id="m13">skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest:passwordValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>9087654321</td>
+<td>Aswini11</td>
+<td>Aswini11</td>
+<td>Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>passwordWithLessThan8digits</h1>
+<h2 id="m14">skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest:passwordValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>9087654321</td>
+<td>Abc.1</td>
+<td>Abc.1</td>
+<td>Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>passwordWithGreaterThan64digits</h1>
+<h2 id="m15">skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest:passwordValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>9087654321</td>
+<td>A group of words containing a subject and a verb, that expresses a statement, a question, etc1.</td>
+<td>A group of words containing a subject and a verb, that expresses a statement, a question, etc1.</td>
+<td>Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>passwordWhichDoesNotMatchAnyCriteria</h1>
+<h2 id="m16">skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest:passwordValidityChecking</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>9087654321</td>
+<td>abcdef</td>
+<td>abcdef</td>
+<td>Password must contain 8-64 characters,
+at least one uppercase character,
+one number and one special character</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>passwordDoesNotMatchConfirmPass</h1>
+<h2 id="m17">skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest:confirmPasswordAndPasswordMatchValidation</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>aswini</td>
+<td>aswini</td>
+<td>aswini@gmail.com</td>
+<td>9087654321</td>
+<td>Aswini.1</td>
+<td>aswini.1</td>
+<td>Password and confirm password do not match</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>PositiveScheduleTests</h1>
+<h2 id="m18">skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest:scheduleMovieTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+<td>200</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>NegativeScheduleTests</h1>
+<h2 id="m19">skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest:loginPageTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+<td>vmn</td>
+<td>Invalid cost</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>PositiveChangePasswordTest </h1>
+<h2 id="m20">skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest:changePasswordTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+<td>Gurleen@2</td>
+<td>Skyfox@4</td>
+<td>Skyfox@4</td>
+</tr>
+<tr><td colspan="5">
+<div class="stacktrace">java.lang.AssertionError: Login failed did not expect [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login] but found [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login]
+	at skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest.changePasswordTest(PositiveChangePasswordTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>ValidateNewPasswordTest</h1>
+<h2 id="m21">skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest:changePasswordTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+<td>Gurleen@2</td>
+<td>Skyfox4</td>
+<td>Skyfox4</td>
+</tr>
+<tr><td colspan="5">
+<div class="stacktrace">java.lang.AssertionError: Login failed did not expect [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login] but found [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login]
+	at skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest.changePasswordTest(ValidateNewPasswordTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>ValidateConfirmPasswordTest</h1>
+<h2 id="m22">skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest:changePasswordTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+<td>Gurleen@2</td>
+<td>Skyfox@4</td>
+<td>Skyfox4</td>
+</tr>
+<tr><td colspan="5">
+<div class="stacktrace">java.lang.AssertionError: Login failed did not expect [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login] but found [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login]
+	at skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest.changePasswordTest(ValidateConfirmPasswordTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>ValidatePreviousPasswordTest</h1>
+<h2 id="m23">skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest:changePasswordTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+<td>Gurleen@2</td>
+<td>Gurleen@2</td>
+<td>Gurleen@2</td>
+</tr>
+<tr><td colspan="5">
+<div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/profile&quot; class=&quot;jss8&quot;&gt;...&lt;/a&gt; is not clickable at point (1316, 32). Other element would receive the click: &lt;div class=&quot;MuiBackdrop-root jss223&quot; aria-hidden=&quot;true&quot; style=&quot;opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=104.0.5112.79)
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;Aswinis-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1430:48f0:96ba:5647%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3d364949e29c28c6cf5a9fa4f9148a4, clickElement {id=23d399d1-2dcd-4c75-ac86-730c4e09ed55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.79, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/nw/pjzqj7c11rs...}, goog:chromeOptions: {debuggerAddress: localhost:53253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53253/devtoo..., se:cdpVersion: 104.0.5112.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (e3d364949e29c28c6cf5a9fa4f9148a4)] -&gt; xpath: //*[@id=&quot;root&quot;]/div/header/div/div[1]/a]
+Session ID: e3d364949e29c28c6cf5a9fa4f9148a4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.ChangePasswordPage.clickProfileIcon(ChangePasswordPage.java:99)
+	at skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest.changePasswordTest(ValidatePreviousPasswordTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>ValidateInvalidCurrentPasswordTest</h1>
+<h2 id="m24">skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest:changePasswordTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+<td>Skyfox@4</td>
+<td>Skyfox@5</td>
+<td>Skyfox@5</td>
+</tr>
+<tr><td colspan="5">
+<div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/profile&quot; class=&quot;jss8&quot;&gt;...&lt;/a&gt; is not clickable at point (1316, 32). Other element would receive the click: &lt;div class=&quot;MuiBackdrop-root jss223&quot; aria-hidden=&quot;true&quot; style=&quot;opacity: 0; transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=104.0.5112.79)
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;Aswinis-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1430:48f0:96ba:5647%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c82eaa1499d108363c9cf4ccff81ceb, clickElement {id=72272676-bbe7-4c2d-bb76-5cca87c1581f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.79, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/nw/pjzqj7c11rs...}, goog:chromeOptions: {debuggerAddress: localhost:53348}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53348/devtoo..., se:cdpVersion: 104.0.5112.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (0c82eaa1499d108363c9cf4ccff81ceb)] -&gt; xpath: //*[@id=&quot;root&quot;]/div/header/div/div[1]/a]
+Session ID: 0c82eaa1499d108363c9cf4ccff81ceb
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.ChangePasswordPage.clickProfileIcon(ChangePasswordPage.java:99)
+	at skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest.changePasswordTest(ValidateInvalidCurrentPasswordTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>PositiveViewMoviePosterTests</h1>
+<h2 id="m25">skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster:viewMoviePoster</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Karthinivash</td>
+<td>Gurleen@2</td>
+</tr>
+<tr><td colspan="2">
+<div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;Aswinis-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1430:48f0:96ba:5647%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [077ce4c9e4590d7eadcf28e699496778, actions {actions=[org.openqa.selenium.interactions.Sequence@612ac38b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.79, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/nw/pjzqj7c11rs...}, goog:chromeOptions: {debuggerAddress: localhost:53455}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53455/devtoo..., se:cdpVersion: 104.0.5112.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 077ce4c9e4590d7eadcf28e699496778
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:169)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:169)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:182)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:177)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:278)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:259)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:172)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:619)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:718)
+	at pages.ViewMoviePoster.clickMoviePoster(ViewMoviePoster.java:36)
+	at skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster.viewMoviePoster(PositiveViewMoviePoster.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;Aswinis-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1430:48f0:96ba:5647%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:303)
+		at org.openqa.selenium.json.Json.toJson(Json.java:40)
+		... 35 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
+	... 56 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.MuiAvatar\-img&quot;}
+  (Session info: chrome=104.0.5112.79)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;Aswinis-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1430:48f0:96ba:5647%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [077ce4c9e4590d7eadcf28e699496778, findElement {using=class name, value=MuiAvatar-img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.79, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/nw/pjzqj7c11rs...}, goog:chromeOptions: {debuggerAddress: localhost:53455}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53455/devtoo..., se:cdpVersion: 104.0.5112.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 077ce4c9e4590d7eadcf28e699496778
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:260)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:209)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
+	... 58 more
+... Removed 29 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
 <h1>AdminActionTest</h1>
-<h2 id="m1">skyfoxapp.testcases.preventunauthorizedactions.ActionsForAdmin:actionsForAdmin</h2>
+<h2 id="m26">skyfoxapp.testcases.preventunauthorizedactions.ActionsForAdmin:actionsForAdmin</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
 <tr class="param stripe"><td>Karthinivash</td>
@@ -47,7 +646,7 @@ td,th {border:1px solid #009;padding:.25em .5em}
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h1>CustomerActionTest</h1>
-<h2 id="m2">skyfoxapp.testcases.preventunauthorizedactions.ActionsForCustomer:actionsForCustomer</h2>
+<h2 id="m27">skyfoxapp.testcases.preventunauthorizedactions.ActionsForCustomer:actionsForCustomer</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
 <tr class="param stripe"><td>aswini</td>

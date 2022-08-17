@@ -36,6 +36,7 @@ public class ActionsForCustomer extends BaseTest {
         Assert.assertFalse(unauthorizedactionpage.AvailbiltyOfScheduleButton());
         Assert.assertFalse(unauthorizedactionpage.AvailbiltyOfRevenue());
         Assert.assertFalse(unauthorizedactionpage.AvailbiltyOfProfileIcon());
+        Assert.assertTrue(unauthorizedactionpage.availbilityOfShows());
     }
 
     @AfterClass

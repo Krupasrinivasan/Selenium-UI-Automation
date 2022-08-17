@@ -1,12 +1,4 @@
 fileignoreconfig:
-- filename: test-output/AllTests/testng-failed.xml
-  checksum: 6c007866ea0962944aa72996a2ab997d30aeaec2b081771ae432e797e031f45f
-- filename: test-output/testng-failed.xml
-  checksum: 89a30735913413d9c5d64854b416025f77d844f6dd87252d0140efdfc4cc5ef0
-- filename: test-output/emailable-report.html
-  checksum: 1dcc9464d5f99be53f67bf67f39447faf269325015c54823379d17081eb79b8a
-- filename: test-output/Extent.html
-  checksum: 7667d84b65122beaf5c42e50f09d14befb1f8965880451880f9aeb4c6d03c46f
 - filename: testng.xml
-  checksum: c4d6f5ce4fdff77d359b8166bba12bd15af5a0d602062501d2ef00c2364a23b2
+  checksum: 56a2bc7b684c326d095b198c9094d4679224e4292c373ffe2bbf77103be49ff3
 version: ""
