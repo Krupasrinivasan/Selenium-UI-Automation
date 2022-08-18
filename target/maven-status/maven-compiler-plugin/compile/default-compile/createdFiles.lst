@@ -2,7 +2,6 @@ pages/CustomerSignupPage.class
 pages/ChangePasswordPage.class
 pages/ViewMoviePoster.class
 skyfoxapp/extentreportlistners/ExtentReportListners.class
-pages/PasswordEncryption.class
 pages/LoginPage.class
 base/BaseTest.class
 pages/AddMovieSchedulePage.class

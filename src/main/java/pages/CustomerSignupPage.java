@@ -205,10 +205,10 @@ public class CustomerSignupPage {
     public Boolean testImageComparison() throws IOException, InterruptedException {
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         Thread.sleep(500);
-        FileUtils.copyFile(screenshot, new File("/Users/aswini/Documents/Projects/neev-beta-01-booking-ui-automation-repo/EyeIconAfterClick.png"));
+        FileUtils.copyFile(screenshot, new File("Projects/neev-beta-01-booking-ui-automation-repo/EyeIconAfterClick.png"));
 
-        File fileInput = new File("/Users/aswini/Documents/Projects/neev-beta-01-booking-ui-automation-repo/EyeIconBeforeClick.png");
-        File fileOutPut = new File("/Users/aswini/Documents/Projects/neev-beta-01-booking-ui-automation-repo/EyeIconAfterClick.png");
+        File fileInput = new File("Projects/neev-beta-01-booking-ui-automation-repo/EyeIconBeforeClick.png");
+        File fileOutPut = new File("Projects/neev-beta-01-booking-ui-automation-repo/EyeIconAfterClick.png");
 
         BufferedImage bufferedImage = ImageIO.read(fileInput);
         DataBuffer bufferfileInput = bufferedImage.getData().getDataBuffer();

@@ -4,40 +4,20 @@
   <listeners>
     <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners"/>
   </listeners>
-  <test thread-count="5" name="CustomerSignUpTestWithAllFieldRequired(failed)" verbose="0">
-    <parameter name="email_id" value=""/>
-    <parameter name="confirm_pass" value=""/>
-    <parameter name="passwordErrorMessage" value="Password is required"/>
-    <parameter name="confirmPasswordErrorMessage" value="Password is required"/>
-    <parameter name="mobile_num" value=""/>
-    <parameter name="pass" value=""/>
-    <parameter name="user_name" value=""/>
-    <parameter name="name" value=""/>
-    <parameter name="usernameErrorMessage" value="Username is required"/>
-    <parameter name="nameErrorMessage" value="Name is required"/>
-    <parameter name="emailErrorMessage" value="Email is required"/>
-    <parameter name="mobileNumberErrorMessage" value="Mobile number is required"/>
-    <classes>
-      <class name="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-          <include name="customerSignupPageTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest -->
-    </classes>
-  </test> <!-- CustomerSignUpTestWithAllFieldRequired(failed) -->
-  <test thread-count="5" name="PositiveViewMoviePosterTests(failed)" verbose="0">
+  <test thread-count="5" name="ValidateConfirmPasswordTest(failed)" verbose="0">
     <parameter name="password" value="Gurleen@2"/>
+    <parameter name="oldPassword" value="Gurleen@2"/>
+    <parameter name="newPassword" value="Skyfox@4"/>
+    <parameter name="confirmPassword" value="Skyfox4"/>
     <parameter name="username" value="Karthinivash"/>
     <classes>
-      <class name="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster">
+      <class name="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="viewMoviePoster" invocation-numbers="0"/>
+          <include name="changePasswordTest" invocation-numbers="0"/>
           <include name="openBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster -->
+      </class> <!-- skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest -->
     </classes>
-  </test> <!-- PositiveViewMoviePosterTests(failed) -->
+  </test> <!-- ValidateConfirmPasswordTest(failed) -->
 </suite> <!-- Failed suite [AllTests] -->

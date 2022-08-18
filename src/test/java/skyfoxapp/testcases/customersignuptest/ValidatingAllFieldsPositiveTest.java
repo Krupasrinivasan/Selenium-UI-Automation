@@ -49,7 +49,7 @@ public class ValidatingAllFieldsPositiveTest extends BaseTest {
         signuppage.sendDetails(full_name, user_name, email_id, mobile_num, pass, confirm_pass);
         sleep();
 
-        signuppage.takeScreenShot(driver, "/Users/aswini/Documents/Projects/neev-beta-01-booking-ui-automation-repo/EyeIconBeforeClick.png") ;
+        signuppage.takeScreenShot(driver, "Projects/neev-beta-01-booking-ui-automation-repo/EyeIconBeforeClick.png") ;
         signuppage.clickEyeIconForPassword();
         signuppage.clickEyeIconForConfirmPassword();
         signuppage.testImageComparison();

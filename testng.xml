@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="AllTests" verbose="1" >
+<suite name="AllTests" verbose="1">
     <listeners>
         <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners" />
     </listeners>
@@ -366,7 +366,7 @@
         </classes>
     </test>
 
-<<<<<<< Updated upstream
+
     <test name="AdminActionTest">
         <parameter name="username" value="Karthinivash"/>
         <parameter name="password" value="Gurleen@2"/>
@@ -382,7 +382,6 @@
         </classes>
     </test>
 
-=======
     <test name = "ValidatePastDayMovieTest">
         <parameter name="username" value="Karthinivash" />
         <parameter name="password" value="Gurleen@2" />
@@ -438,7 +437,7 @@
         </classes>
     </test>
 
-    <test name = "ValidateAdminBookingCustomerDetailsTest">
+    <test name = "ValidateAdminBookingNameFieldTest">
         <parameter name="username" value="Karthinivash" />
         <parameter name="password" value="Gurleen@2" />
         <parameter name="seats" value="" />
@@ -449,7 +448,18 @@
         </classes>
     </test>
 
-        <test name = "ValidateAdminBookingCustomerDetailsTest">
+    <test name = "ValidateAdminBookingPhoneNumberTest">
+        <parameter name="username" value="Karthinivash" />
+        <parameter name="password" value="Gurleen@2" />
+        <parameter name="seats" value="" />
+        <parameter name="name" value="Krupa" />
+        <parameter name="number" value="1123457890" />
+        <parameter name="email" value="krupa@gmail.com" />
+        <classes>
+            <class name="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingPhnNumberFieldTest"/>
+        </classes>
+    </test>
+        <test name = "ValidateAdminBookingEmailTest">
             <parameter name="username" value="Karthinivash" />
             <parameter name="password" value="Gurleen@2" />
             <parameter name="seats" value="" />
@@ -460,5 +470,5 @@
                 <class name="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingEmailTest"/>
             </classes>
         </test>
->>>>>>> Stashed changes
+
 </suite>

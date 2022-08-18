@@ -1,8 +1,9 @@
-/Users/sr.karthinivash/Projects/SkyfoxUITesting/src/main/java/pages/AddMovieSchedulePage.java
-/Users/sr.karthinivash/Projects/SkyfoxUITesting/src/main/java/pages/PasswordEncryption.java
-/Users/sr.karthinivash/Projects/SkyfoxUITesting/src/main/java/pages/CustomerSignupPage.java
-/Users/sr.karthinivash/Projects/SkyfoxUITesting/src/main/java/pages/LoginPage.java
-/Users/sr.karthinivash/Projects/SkyfoxUITesting/src/main/java/skyfoxapp/extentreportlistners/ExtentReportListners.java
-/Users/sr.karthinivash/Projects/SkyfoxUITesting/src/main/java/pages/ChangePasswordPage.java
-/Users/sr.karthinivash/Projects/SkyfoxUITesting/src/main/java/base/BaseTest.java
-/Users/sr.karthinivash/Projects/SkyfoxUITesting/src/main/java/pages/ViewMoviePoster.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/pages/PreventUnauthorizedActionsPage.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/base/BaseTest.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/pages/CustomerBookingPage.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/pages/ChangePasswordPage.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/pages/LoginPage.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/pages/ViewMoviePoster.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/pages/AddMovieSchedulePage.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/pages/CustomerSignupPage.java
+/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/src/main/java/skyfoxapp/extentreportlistners/ExtentReportListners.java
