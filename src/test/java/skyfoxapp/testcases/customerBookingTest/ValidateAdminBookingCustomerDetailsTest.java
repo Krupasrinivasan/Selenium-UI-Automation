@@ -26,7 +26,7 @@ public class ValidateAdminBookingCustomerDetailsTest extends BaseTest {
         String actualUrl = customerBookingPage.validateLoginUrl();
         Assert.assertNotEquals(actualUrl, customerBookingPage.url, "Login failed");
 
-        driver.navigate().to("http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/shows?date=2022-08-30");
+        driver.navigate().to("http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/shows?date=2022-08-31");
 
         System.out.println("new page");
         Thread.sleep(3000);

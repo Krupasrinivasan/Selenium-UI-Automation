@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="539.337" tests="44" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="537.365" tests="44" errors="0" skipped="0" failures="2">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Users/krupa.srinivasan/.sdkman/candidates/java/11.0.14-librca/lib"/>
-    <property name="sun.java.command" value="/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/target/surefire/surefirebooter-20220817194811266_3.jar /Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/target/surefire 2022-08-17T19-48-11_121-jvmRun1 surefire-20220817194811266_1tmp surefire_0-20220817194811266_2tmp"/>
+    <property name="sun.java.command" value="/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/target/surefire/surefirebooter-20220818102207170_3.jar /Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/target/surefire 2022-08-18T10-22-07_041-jvmRun1 surefire-20220818102207170_1tmp surefire_0-20220818102207170_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/target/test-classes:/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/target/classes:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-java/4.2.1/selenium-java-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-api/4.2.1/selenium-api-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.2.1/selenium-chrome-driver-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/krupa.srinivasan/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/krupa.srinivasan/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/krupa.srinivasan/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/krupa.srinivasan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/krupa.srinivasan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/krupa.srinivasan/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/krupa.srinivasan/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/krupa.srinivasan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.2.1/selenium-chromium-driver-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-json/4.2.1/selenium-json-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.2.1/selenium-devtools-v100-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.2.1/selenium-devtools-v101-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.2.1/selenium-devtools-v102-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.2.1/selenium-devtools-v85-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.2.1/selenium-edge-driver-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.2.1/selenium-firefox-driver-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.2.1/selenium-ie-driver-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.2.1/selenium-opera-driver-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.2.1/selenium-remote-driver-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-codec-http/4.1.77.Final/netty-codec-http-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.77.Final/netty-transport-classes-kqueue-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.77.Final/netty-transport-native-kqueue-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-api/1.14.0/opentelemetry-api-1.14.0.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-context/1.14.0/opentelemetry-context-1.14.0.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.14.0/opentelemetry-exporter-logging-1.14.0.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.14.0/opentelemetry-sdk-metrics-1.14.0.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.14.0-alpha/opentelemetry-sdk-logs-1.14.0-alpha.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.14.0/opentelemetry-sdk-common-1.14.0.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.14.0/opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.14.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.14.0/opentelemetry-sdk-trace-1.14.0.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.14.0/opentelemetry-sdk-1.14.0.jar:/Users/krupa.srinivasan/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha.jar:/Users/krupa.srinivasan/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/krupa.srinivasan/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/krupa.srinivasan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/krupa.srinivasan/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/krupa.srinivasan/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/krupa.srinivasan/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/krupa.srinivasan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/krupa.srinivasan/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/krupa.srinivasan/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-http/4.2.1/selenium-http-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.2.1/selenium-safari-driver-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/seleniumhq/selenium/selenium-support/4.2.1/selenium-support-4.2.1.jar:/Users/krupa.srinivasan/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/Users/krupa.srinivasan/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/krupa.srinivasan/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/krupa.srinivasan/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/krupa.srinivasan/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/krupa.srinivasan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/krupa.srinivasan/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/krupa.srinivasan/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/krupa.srinivasan/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/krupa.srinivasan/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/krupa.srinivasan/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/krupa.srinivasan/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/krupa.srinivasan/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/krupa.srinivasan/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/krupa.srinivasan/.m2/repository/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar:/Users/krupa.srinivasan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/krupa.srinivasan/.m2/repository/com/levigo/gwt-awt/0.0.1/gwt-awt-0.0.1.jar:/Users/krupa.srinivasan/.m2/repository/com/google/gwt/gwt-user/2.5.0/gwt-user-2.5.0.jar:/Users/krupa.srinivasan/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/Users/krupa.srinivasan/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar:/Users/krupa.srinivasan/.m2/repository/org/json/json/20090211/json-20090211.jar:"/>
@@ -35,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/target/surefire/surefirebooter-20220817194811266_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/krupa.srinivasan/Projects/neev-beta-01-booking-ui-automation-repo/target/surefire/surefirebooter-20220818102207170_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.14+9-LTS"/>
@@ -62,79 +62,79 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="loginPageTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.loginpagetest.PositiveLoginTest" time="1.217">
+  <testcase name="loginPageTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.loginpagetest.PositiveLoginTest" time="1.202">
     <system-out><![CDATA[Starting login test
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59489
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56705
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745898.071][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:48:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798333.760][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:22:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:48:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:48:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="loginPageTest[Karthinivah, Gurleen@2, Login failed](1)" classname="skyfoxapp.testcases.loginpagetest.NegativeLoginTest" time="3.253">
+  <testcase name="loginPageTest[Karthinivah, Gurleen@2, Login failed](1)" classname="skyfoxapp.testcases.loginpagetest.NegativeLoginTest" time="3.235">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login
 Login failed
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54388
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60298
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745901.187][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:48:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798336.615][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:22:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:48:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:48:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="loginPageTest[Karthinivash, Gurleen@1, Login failed](1)" classname="skyfoxapp.testcases.loginpagetest.NegativeLoginTest" time="3.259">
+  <testcase name="loginPageTest[Karthinivash, Gurleen@1, Login failed](1)" classname="skyfoxapp.testcases.loginpagetest.NegativeLoginTest" time="3.223">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login
 Login failed
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58764
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64485
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745911.128][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:48:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798346.429][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:22:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:48:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:48:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="customerSignupPageTest[aswini, aswini10, aswini@gmail.com, 9067834521, Aswini.1, Aswini.1](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest" time="7.676">
+  <testcase name="customerSignupPageTest[aswini, aswini10, aswini@gmail.com, 9067834521, Aswini.1, Aswini.1](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsPositiveTest" time="7.627">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53251
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 65222
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745916.081][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:48:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798351.248][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:22:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:48:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:48:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="customerSignupPageTest[, , , , , , Name is required, Username is required, Email is required, Mobile number is required, Password is required, Password is required](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest" time="8.628">
+  <testcase name="customerSignupPageTest[, , , , , , Name is required, Username is required, Email is required, Mobile number is required, Password is required, Password is required](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingAllFieldsNegativeTest" time="8.581">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Name is required
@@ -144,249 +144,249 @@ Mobile number is required
 Password is required
 Password is required
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50677
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54127
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745931.462][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:48:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798366.628][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:22:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:48:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:48:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:22:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="usernameValidityChecking[aswini, seed-user-1, aswini@gmail.com, 9087654123, Aswini.1, Aswini.1, A user with the username already exists](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest" time="4.598">
+  <testcase name="usernameValidityChecking[aswini, seed-user-1, aswini@gmail.com, 9087654123, Aswini.1, Aswini.1, A user with the username already exists](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingAlreadyExistingUsernameTest" time="4.552">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 A user with the username already exists
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54972
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58032
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745947.507][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:49:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798382.395][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:23:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:49:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:49:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="emailValidityChecking[aswini, aswini, aswinigmail.com, 9087654123, Aswini.1, Aswini.1, Invalid Email](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest" time="3.573">
+  <testcase name="emailValidityChecking[aswini, aswini, aswinigmail.com, 9087654123, Aswini.1, Aswini.1, Invalid Email](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest" time="3.636">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Invalid Email
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53909
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55959
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745961.940][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:49:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798396.549][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:23:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:49:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:49:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="emailValidityChecking[aswini, aswini, aswini@gmailcom, 9087654123, Aswini.1, Aswini.1, Invalid Email](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest" time="3.572">
+  <testcase name="emailValidityChecking[aswini, aswini, aswini@gmailcom, 9087654123, Aswini.1, Aswini.1, Invalid Email](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingEmailIdTest" time="3.548">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Invalid Email
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52103
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51592
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745973.544][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:49:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798407.792][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:23:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:49:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:49:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="mobileNumberValidityChecking[aswini, aswini, aswini@gmail.com, 9087654, Aswini.1, Aswini.1, Enter a valid mobile number](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest" time="3.578">
+  <testcase name="mobileNumberValidityChecking[aswini, aswini, aswini@gmail.com, 9087654, Aswini.1, Aswini.1, Enter a valid mobile number](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest" time="3.628">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Enter a valid mobile number
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52594
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 62527
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745985.524][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:49:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798419.022][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:23:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:49:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:49:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="mobileNumberValidityChecking[aswini, aswini, aswini@gmail.com, 908765423456789, Aswini.1, Aswini.1, Enter a valid mobile number](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest" time="3.577">
+  <testcase name="mobileNumberValidityChecking[aswini, aswini, aswini@gmail.com, 908765423456789, Aswini.1, Aswini.1, Enter a valid mobile number](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingMobileNumberTest" time="3.608">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Enter a valid mobile number
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59420
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63080
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660745997.772][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:49:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798430.319][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:23:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:49:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:49:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:23:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, aswini.1, aswini.1, Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.522">
+  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, aswini.1, aswini.1, Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.492">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Password must contain 8-64 characters,
 at least one uppercase character,
 one number and one special character
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50003
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50061
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746010.162][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:50:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798441.541][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:24:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:50:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:50:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, Aswini.., Aswini.., Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.541">
+  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, Aswini.., Aswini.., Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.513">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Password must contain 8-64 characters,
 at least one uppercase character,
 one number and one special character
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60645
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60015
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746020.314][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:50:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798453.385][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:24:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:50:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:50:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, Aswini11, Aswini11, Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.55">
+  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, Aswini11, Aswini11, Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.51">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Password must contain 8-64 characters,
 at least one uppercase character,
 one number and one special character
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55165
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 65325
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746031.383][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:50:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798463.483][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:24:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:50:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:50:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, Abc.1, Abc.1, Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.561">
+  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, Abc.1, Abc.1, Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.521">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Password must contain 8-64 characters,
 at least one uppercase character,
 one number and one special character
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50049
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55965
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746041.980][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:50:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798473.606][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:24:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:50:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:50:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, A group of words containing a subject and a verb, that expresses a statement, a question, etc1., A group of words containing a subject and a verb, that expresses a statement, a question, etc1., Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.665">
+  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, A group of words containing a subject and a verb, that expresses a statement, a question, etc1., A group of words containing a subject and a verb, that expresses a statement, a question, etc1., Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.655">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Password must contain 8-64 characters,
 at least one uppercase character,
 one number and one special character
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 62629
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63771
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746052.996][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:50:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798483.758][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:24:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:50:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:50:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, abcdef, abcdef, Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.539">
+  <testcase name="passwordValidityChecking[aswini, aswini, aswini@gmail.com, 9087654321, abcdef, abcdef, Password must contain 8-64 characters,&#10;at least one uppercase character,&#10;one number and one special character](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingPasswordTest" time="2.513">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Password must contain 8-64 characters,
 at least one uppercase character,
 one number and one special character
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51106
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60811
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746063.784][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:51:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798493.971][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:24:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:51:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:51:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:24:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="confirmPasswordAndPasswordMatchValidation[aswini, aswini, aswini@gmail.com, 9087654321, Aswini.1, aswini.1, Password and confirm password do not match](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest" time="5.092">
+  <testcase name="confirmPasswordAndPasswordMatchValidation[aswini, aswini, aswini@gmail.com, 9087654321, Aswini.1, aswini.1, Password and confirm password do not match](1)" classname="skyfoxapp.testcases.customersignuptest.ValidatingConfirmPasswordtTest" time="5.063">
     <system-out><![CDATA[Starting login test
 http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/signup
 Password and confirm password do not match
 Password and confirm password do not match
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59835
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61121
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746074.233][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798504.071][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:25:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:51:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:25:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:51:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:25:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="scheduleMovieTest[Karthinivash, Gurleen@2, 200](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest" time="10.779">
+  <testcase name="scheduleMovieTest[Karthinivash, Gurleen@2, 200](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.PositiveScheduleTest" time="10.774">
     <system-out><![CDATA[Starting login test
 new page
 Clicked Schedule Button
@@ -396,20 +396,20 @@ Selected Dropdown
 clickable
 clicked Cross mark
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61545
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49970
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746087.264][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:51:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798516.887][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:25:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:51:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:25:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:51:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:25:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="loginPageTest[Karthinivash, Gurleen@2, vmn, Invalid cost](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest" time="9.699">
+  <testcase name="loginPageTest[Karthinivash, Gurleen@2, vmn, Invalid cost](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.NegativeScheduleTest" time="9.701">
     <system-out><![CDATA[Starting login test
 new page
 Clicked Schedule Button
@@ -417,211 +417,425 @@ Selected slot
 Cost entered
 Selected Dropdown
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53490
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58388
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746104.691][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798534.319][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:25:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:51:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:25:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:51:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:25:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="scheduleMovieTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.PreviousDayNoAvailableSlotsScheduleTest" time="4.293">
+  <testcase name="scheduleMovieTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.PreviousDayNoAvailableSlotsScheduleTest" time="4.3">
     <system-out><![CDATA[Starting login test
 new page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54880
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60827
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746121.298][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:52:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798550.634][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:25:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:52:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:25:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:52:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:25:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="scheduleMovieTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.PreviousDayAvailableSlotsScheduleTest" time="4.29">
+  <testcase name="scheduleMovieTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.PreviousDayAvailableSlotsScheduleTest" time="4.298">
     <system-out><![CDATA[Starting login test
 new page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53374
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51386
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746132.245][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:52:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798561.902][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:26:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:52:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:52:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="scheduleMovieTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.NoAvailableSlotsScheduleTest" time="4.294">
+  <testcase name="scheduleMovieTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.addMovieScheduleTest.NoAvailableSlotsScheduleTest" time="4.516">
     <system-out><![CDATA[Starting login test
 new page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50402
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 54469
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746143.322][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:52:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798572.850][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:26:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:52:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:52:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox@4](1)" classname="skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest" time="4.612">
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox@4](1)" classname="skyfoxapp.testcases.changepasswordtest.PositiveChangePasswordTest" time="5.215">
     <system-out><![CDATA[Starting login test
 Clicked profile icon
 Clicked Change Password button
 Entered all fields
 0
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63128
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58156
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746155.044][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:52:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798583.957][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:26:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:52:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:52:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox433, Skyfox433](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.628">
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox433, Skyfox433](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.981">
     <system-out><![CDATA[Starting login test
 Clicked profile icon
 Clicked Change Password button
 Entered all fields
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52081
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60886
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746166.865][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:52:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798596.083][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:26:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:52:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:52:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, skyfox@433, skyfox@433](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.611">
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, skyfox@433, skyfox@433](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.587">
     <system-out><![CDATA[Starting login test
 Clicked profile icon
 Clicked Change Password button
 Entered all fields
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49737
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59838
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746171.522][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:52:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798600.842][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:26:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:52:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:52:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, SKYFOX433, SKYFOX433](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.595">
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, SKYFOX433, SKYFOX433](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.59">
     <system-out><![CDATA[Starting login test
 Clicked profile icon
 Clicked Change Password button
 Entered all fields
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58977
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50921
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746181.195][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:53:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798611.086][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:26:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:53:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:53:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox@, Skyfox@](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.712">
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox@, Skyfox@](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.588">
     <system-out><![CDATA[Starting login test
 Clicked profile icon
 Clicked Change Password button
 Entered all fields
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59071
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51619
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746185.398][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:53:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798615.285][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:26:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:53:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:53:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:26:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Sky@3, Sky@3](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.607">
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Sky@3, Sky@3](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.583">
     <system-out><![CDATA[Starting login test
 Clicked profile icon
 Clicked Change Password button
 Entered all fields
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52436
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49821
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746194.940][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:53:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798624.865][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:27:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:53:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:27:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:53:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:27:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@, Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.683">
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@, Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@Skyfox@](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateNewPasswordTest" time="2.655">
     <system-out><![CDATA[Starting login test
 Clicked profile icon
 Clicked Change Password button
 Entered all fields
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56828
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 65282
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746199.509][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:53:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798629.097][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:27:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:53:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:27:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:53:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:27:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox4](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest" time="1.172">
-    <failure message="Login failed did not expect [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login] but found [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login failed did not expect [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login] but found [http://ec2-65-2-126-57.ap-south-1.compute.amazonaws.com:3000/login]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failEquals(Assert.java:1417)
-	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
-	at org.testng.Assert.assertNotEquals(Assert.java:1986)
-	at skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest.changePasswordTest(ValidateConfirmPasswordTest.java:29)
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Skyfox@4, Skyfox4](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest" time="3.574">
+    <system-out><![CDATA[Starting login test
+Clicked profile icon
+Clicked Change Password button
+Entered all fields
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52152
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798638.401][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:27:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:27:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:27:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Gurleen@2, Gurleen@2](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest" time="3.767">
+    <system-out><![CDATA[Starting login test
+Clicked profile icon
+Clicked Change Password button
+Entered all fields
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63889
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798648.944][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:27:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:27:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:27:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Skyfox@4, Skyfox@5, Skyfox@5](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest" time="3.779">
+    <system-out><![CDATA[Starting login test
+Clicked profile icon
+Clicked Change Password button
+Entered all fields
+Invalid current password
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52722
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798659.464][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:27:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:27:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:27:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="viewMoviePoster[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster" time="12.294">
+    <system-out><![CDATA[Starting login test
+Parameters sent
+Clicked login button
+Clicked movie poster
+Movie Poster Popup is available
+crossmark is available
+Cross mark in movie poster is clicked
+Movie Poster Popup is not available
+Clicked movie name
+Movie Detail Popup is available
+crossmark is available
+Clicked movie name
+Movie Poster Popup is available
+crossmark is available
+Cross mark in movie poster is clicked
+Movie Detail Popup is available
+Cross mark in movie poster is clicked
+Movie Details Popup is not available
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64668
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798669.867][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:27:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:27:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:27:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="actionsForAdmin[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.preventunauthorizedactions.ActionsForAdmin" time="9.238">
+    <system-out><![CDATA[Starting login test
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61627
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798689.113][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:28:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:28:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:28:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="actionsForCustomer[aswini, Skyfox@24](1)" classname="skyfoxapp.testcases.preventunauthorizedactions.ActionsForCustomer" time="9.22">
+    <system-out><![CDATA[Starting login test
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63288
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798705.995][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:28:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:28:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:28:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="customerBookingTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidatePastDayMoviesTest" time="5.349">
+    <system-out><![CDATA[Starting login test
+new page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52458
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798722.814][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:28:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:28:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:28:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="customerBookingTest[seed-user-3, Gurleen@1, ](1)" classname="skyfoxapp.testcases.customerBookingTest.PositiveCustomerBookingTest" time="12.756">
+    <system-out><![CDATA[Starting login test
+new page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53004
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798734.741][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:28:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:28:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:28:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="customerBookingTest[seed-user-3, Gurleen@1](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidatePastShowsTest" time="8.342">
+    <system-out><![CDATA[Starting login test
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50591
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798754.388][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:29:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:29:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:29:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="customerBookingTest[seed-user-3, Gurleen@1, 100](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateNumberOfSeatsTest" time="8.578">
+    <system-out><![CDATA[Starting login test
+new page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55180
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660798769.800][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:29:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 18, 2022 10:29:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 18, 2022 10:29:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="customerBookingTest[seed-user-3, Gurleen@1, 5](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAvailableSeatsTest" time="13.863">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.MuiAlert\-message&quot;}&#10;  (Session info: chrome=104.0.5112.101)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;Krupasrees-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:889:df75:c81f:dc42%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;11.0.14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9fd233163910b16886abaf4199ff1e09, findElement {using=class name, value=MuiAlert-message}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/r1/xlj9hvl92b9...}, goog:chromeOptions: {debuggerAddress: localhost:52115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52115/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9fd233163910b16886abaf4199ff1e09" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".MuiAlert\-message"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'Krupasrees-MacBook-Pro.local', ip: 'fe80:0:0:0:889:df75:c81f:dc42%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fd233163910b16886abaf4199ff1e09, findElement {using=class name, value=MuiAlert-message}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/r1/xlj9hvl92b9...}, goog:chromeOptions: {debuggerAddress: localhost:52115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52115/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fd233163910b16886abaf4199ff1e09
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy14.getText(Unknown Source)
+	at pages.CustomerBookingPage.returnAvailableSeatsErrorMsg(CustomerBookingPage.java:222)
+	at skyfoxapp.testcases.customerBookingTest.ValidateAvailableSeatsTest.customerBookingTest(ValidateAvailableSeatsTest.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -656,273 +870,124 @@ INFO: Found CDP implementation for version 104 of 102
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
     <system-out><![CDATA[Starting login test
+new page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53080
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58444
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746208.915][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:53:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798785.023][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:29:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:53:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:29:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:53:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:29:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Gurleen@2, Gurleen@2, Gurleen@2](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidatePreviousPasswordTest" time="3.636">
-    <system-out><![CDATA[Starting login test
-Clicked profile icon
-Clicked Change Password button
-Entered all fields
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51714
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746211.824][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:53:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:53:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:53:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="changePasswordTest[Karthinivash, Gurleen@2, Skyfox@4, Skyfox@5, Skyfox@5](1)" classname="skyfoxapp.testcases.changepasswordtest.ValidateInvalidCurrentPasswordTest" time="3.616">
-    <system-out><![CDATA[Starting login test
-Clicked profile icon
-Clicked Change Password button
-Entered all fields
-Invalid current password
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50747
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746222.147][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:53:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:53:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:53:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="viewMoviePoster[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.viewmovieposter.PositiveViewMoviePoster" time="12.324">
-    <system-out><![CDATA[Starting login test
-Parameters sent
-Clicked login button
-Clicked movie poster
-Movie Poster Popup is available
-crossmark is available
-Cross mark in movie poster is clicked
-Movie Poster Popup is not available
-Clicked movie name
-Movie Detail Popup is available
-crossmark is available
-Clicked movie name
-Movie Poster Popup is available
-crossmark is available
-Cross mark in movie poster is clicked
-Movie Detail Popup is available
-Cross mark in movie poster is clicked
-Movie Details Popup is not available
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63193
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746232.980][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:53:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:53:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:53:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="actionsForAdmin[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.preventunauthorizedactions.ActionsForAdmin" time="9.246">
-    <system-out><![CDATA[Starting login test
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 65097
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746252.921][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:54:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:54:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:54:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="actionsForCustomer[aswini, Skyfox@24](1)" classname="skyfoxapp.testcases.preventunauthorizedactions.ActionsForCustomer" time="9.227">
-    <system-out><![CDATA[Starting login test
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50853
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746269.917][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:54:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:54:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:54:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="customerBookingTest[Karthinivash, Gurleen@2](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidatePastDayMoviesTest" time="5.372">
+  <testcase name="customerBookingTest[Karthinivash, Gurleen@2, , Krupa, 6123457890, krupa@gmail.com](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingCustomerDetailsTest" time="9.71">
     <system-out><![CDATA[Starting login test
 new page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58690
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58091
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746286.860][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:54:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798805.731][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:30:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:54:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:30:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:54:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:30:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="customerBookingTest[seed-user-3, Gurleen@1, ](1)" classname="skyfoxapp.testcases.customerBookingTest.PositiveCustomerBookingTest" time="11.85">
+  <testcase name="customerBookingTest[Karthinivash, Gurleen@2, , 6123457890, krupa@gmail.com](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingNameFeildTest" time="8.593">
     <system-out><![CDATA[Starting login test
 new page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55573
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55413
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746299.826][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:54:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798822.374][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:30:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:54:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:30:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:54:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:30:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="customerBookingTest[seed-user-3, Gurleen@1](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidatePastShowsTest" time="8.354">
-    <system-out><![CDATA[Starting login test
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64118
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746318.576][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:55:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:55:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:55:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="customerBookingTest[seed-user-3, Gurleen@1, 100](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateNumberOfSeatsTest" time="8.558">
-    <system-out><![CDATA[Starting login test
-new page
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 57245
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746333.724][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:55:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:55:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:55:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="customerBookingTest[seed-user-3, Gurleen@1, 5](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAvailableSeatsTest" time="10.748">
-    <system-out><![CDATA[Starting login test
-new page
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53493
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746349.033][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:55:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:55:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:55:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="customerBookingTest[Karthinivash, Gurleen@2, , Krupa, 6123457890, krupa@gmail.com](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingCustomerDetailsTest" time="9.715">
+  <testcase name="customerBookingTest[Karthinivash, Gurleen@2, , Krupa, 1123457890, krupa@gmail.com](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingPhnNumberFieldTest" time="5.378">
+    <failure message="Dialog box is not displayed expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Dialog box is not displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingPhnNumberFieldTest.customerBookingTest(ValidateAdminBookingPhnNumberFieldTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
     <system-out><![CDATA[Starting login test
 new page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58463
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51041
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746366.508][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:56:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798837.869][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:30:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:56:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:30:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:56:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:30:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="customerBookingTest[Karthinivash, Gurleen@2, , 6123457890, krupa@gmail.com](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingNameFeildTest" time="8.614">
+  <testcase name="customerBookingTest[Karthinivash, Gurleen@2, , Krupa, 6123457890, krupa](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingEmailTest" time="8.598">
     <system-out><![CDATA[Starting login test
 new page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61065
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52456
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1660746383.162][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:56:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1660798849.935][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 18, 2022 10:30:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:56:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:30:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:56:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="customerBookingTest[Karthinivash, Gurleen@2, , Krupa, 1123457890, krupa@gmail.com](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingPhnNumberFieldTest" time="8.616">
-    <system-out><![CDATA[Starting login test
-new page
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55008
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746398.502][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:56:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:56:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:56:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 104 of 102
-]]></system-err>
-  </testcase>
-  <testcase name="customerBookingTest[Karthinivash, Gurleen@2, , Krupa, 6123457890, krupa](1)" classname="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingEmailTest" time="8.636">
-    <system-out><![CDATA[Starting login test
-new page
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64041
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1660746413.874][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
-Aug 17, 2022 7:56:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Aug 17, 2022 7:56:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
-Aug 17, 2022 7:56:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 18, 2022 10:30:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 104 of 102
 ]]></system-err>
   </testcase>

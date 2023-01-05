@@ -26,6 +26,7 @@ public class ValidateConfirmPasswordTest extends BaseTest {
         sleep();
 
         String actualUrl = changePasswordPage.validateLoginUrl();
+        sleep();
         Assert.assertNotEquals(actualUrl, changePasswordPage.url, "Login failed");
 
         sleep();

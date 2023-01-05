@@ -4,20 +4,35 @@
   <listeners>
     <listener class-name="skyfoxapp.extentreportlistners.ExtentReportListners"/>
   </listeners>
-  <test thread-count="5" name="ValidateConfirmPasswordTest(failed)" verbose="0">
+  <test thread-count="5" name="ValidateAvailableSeatsTest(failed)" verbose="0">
+    <parameter name="password" value="Gurleen@1"/>
+    <parameter name="seats" value="5"/>
+    <parameter name="username" value="seed-user-3"/>
+    <classes>
+      <class name="skyfoxapp.testcases.customerBookingTest.ValidateAvailableSeatsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="customerBookingTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- skyfoxapp.testcases.customerBookingTest.ValidateAvailableSeatsTest -->
+    </classes>
+  </test> <!-- ValidateAvailableSeatsTest(failed) -->
+  <test thread-count="5" name="ValidateAdminBookingPhoneNumberTest(failed)" verbose="0">
+    <parameter name="number" value="1123457890"/>
     <parameter name="password" value="Gurleen@2"/>
-    <parameter name="oldPassword" value="Gurleen@2"/>
-    <parameter name="newPassword" value="Skyfox@4"/>
-    <parameter name="confirmPassword" value="Skyfox4"/>
+    <parameter name="name" value="Krupa"/>
+    <parameter name="seats" value=""/>
+    <parameter name="email" value="krupa@gmail.com"/>
     <parameter name="username" value="Karthinivash"/>
     <classes>
-      <class name="skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest">
+      <class name="skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingPhnNumberFieldTest">
         <methods>
-          <include name="changePasswordTest" invocation-numbers="0"/>
+          <include name="customerBookingTest" invocation-numbers="0"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- skyfoxapp.testcases.changepasswordtest.ValidateConfirmPasswordTest -->
+      </class> <!-- skyfoxapp.testcases.customerBookingTest.ValidateAdminBookingPhnNumberFieldTest -->
     </classes>
-  </test> <!-- ValidateConfirmPasswordTest(failed) -->
+  </test> <!-- ValidateAdminBookingPhoneNumberTest(failed) -->
 </suite> <!-- Failed suite [AllTests] -->
